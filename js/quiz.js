@@ -5,8 +5,7 @@ let questions = [];       // filtered + shuffled array for this session
 let currentIndex = 0;
 let slots = [];           // Array<{ id, word } | null>
 let wordBankItems = [];   // Array<{ id, word, used }>
-let quizState = 'idle';   // 'idle' | 'wrong' | 'correct'
-let hadWrongAttempt = false;
+let quizState = 'idle';   // 'idle' | 'wrong' | 'correct' | 'revealed'
 
 // ── DOM references (populated in init) ────────────────────────────────────
 const el = {};
@@ -24,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   el.btnFlag      = document.getElementById('btn-flag');
   el.btnNext      = document.getElementById('btn-next');
   el.btnSkip      = document.getElementById('btn-skip');
+  el.btnReplay    = document.getElementById('btn-replay');
   el.quiz         = document.getElementById('quiz');
   el.noQuestions  = document.getElementById('no-questions');
   el.results      = document.getElementById('results');
@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   el.btnFlag.addEventListener('click', onFlagClick);
   el.btnNext.addEventListener('click', onNextClick);
   el.btnSkip.addEventListener('click', onSkipClick);
+  el.btnReplay.addEventListener('click', onReplayClick);
   document.getElementById('btn-home').addEventListener('click', () => { window.location.href = './index.html'; });
   document.getElementById('btn-review-flagged').addEventListener('click', () => {
     window.location.href = './quiz.html?mode=review';
@@ -94,7 +95,6 @@ async function loadData() {
 function loadQuestion(index) {
   currentIndex  = index;
   quizState     = 'idle';
-  hadWrongAttempt = false;
 
   const q = questions[index];
 
@@ -141,12 +141,14 @@ function renderSlots() {
 
       if (quizState === 'correct') {
         div.classList.add('correct');
+      } else if (quizState === 'revealed') {
+        div.classList.add('revealed');
       } else if (quizState === 'wrong') {
         div.classList.add(slot.word === q.answer[i] ? 'correct' : 'wrong');
       }
 
       // Clicking a filled slot (in idle or wrong state) returns word to bank
-      if (quizState !== 'correct') {
+      if (quizState !== 'correct' && quizState !== 'revealed') {
         div.addEventListener('click', () => onSlotClick(i));
         div.style.cursor = 'pointer';
       }
@@ -163,7 +165,7 @@ function renderWordBank() {
     const btn = document.createElement('button');
     btn.className = 'word-btn';
     btn.textContent = item.word;
-    btn.disabled = item.used || quizState === 'correct';
+    btn.disabled = item.used || quizState === 'correct' || quizState === 'revealed';
     if (item.used) btn.classList.add('used');
 
     btn.addEventListener('click', () => onWordClick(item.id));
@@ -217,15 +219,29 @@ function onNextClick() {
 }
 
 function onSkipClick() {
-  // Record as incorrect if user attempted at least once (had a wrong attempt)
-  if (hadWrongAttempt) {
-    setQuestionStatus(questions[currentIndex].id, 'incorrect');
-  }
-  if (currentIndex + 1 < questions.length) {
-    loadQuestion(currentIndex + 1);
-  } else {
-    showResults();
-  }
+  const q = questions[currentIndex];
+
+  // Skipped questions count as incorrect (won't regress an already-correct one)
+  setQuestionStatus(q.id, 'incorrect');
+
+  // Reveal the correct answer in the slots
+  slots = q.answer.map((word, i) => ({ id: -1 - i, word }));
+  quizState = 'revealed';
+
+  speak(q.answer.join(' '));
+
+  el.feedback.textContent = '正解を表示しました。';
+  el.feedback.className = 'feedback revealed';
+  el.btnSkip.style.display = 'none';
+  el.btnReplay.style.display = 'inline-flex';
+  el.btnNext.style.display = 'inline-flex';
+
+  renderSlots();
+  renderWordBank();
+}
+
+function onReplayClick() {
+  speak(questions[currentIndex].answer.join(' '));
 }
 
 function onFlagClick() {
@@ -247,15 +263,16 @@ function checkAnswer() {
     el.feedback.textContent = '正解！ 🎉';
     el.feedback.className = 'feedback correct';
     el.btnNext.style.display = 'inline-flex';
+    el.btnReplay.style.display = 'inline-flex';
     el.btnSkip.style.display = 'none';
   } else {
     quizState = 'wrong';
-    hadWrongAttempt = true;
     setQuestionStatus(q.id, 'incorrect');
 
     el.feedback.textContent = '不正解。赤いマスをタップして修正してください。';
     el.feedback.className = 'feedback wrong';
     el.btnSkip.style.display = 'inline-flex';
+    el.btnReplay.style.display = 'none';
     el.btnNext.style.display = 'none';
   }
 
@@ -295,7 +312,8 @@ function clearFeedback() {
   el.feedback.textContent = '';
   el.feedback.className = 'feedback';
   el.btnNext.style.display = 'none';
-  el.btnSkip.style.display = 'none';
+  el.btnReplay.style.display = 'none';
+  el.btnSkip.style.display = 'inline-flex';
 }
 
 function setFlagUI(flagged) {

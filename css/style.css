@@ -510,6 +510,13 @@ body {
   animation: shake 0.3s ease;
 }
 
+.slot.revealed {
+  border-color: var(--warning) !important;
+  background: var(--warning-light) !important;
+  color: #92400E !important;
+  cursor: default;
+}
+
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   20% { transform: translateX(-4px); }
@@ -539,6 +546,12 @@ body {
 .feedback.wrong {
   color: #991B1B;
   background: var(--danger-light);
+  padding: 8px 16px;
+}
+
+.feedback.revealed {
+  color: #92400E;
+  background: var(--warning-light);
   padding: 8px 16px;
 }
 
