@@ -1,0 +1,2768 @@
+{
+  "version": "1.0",
+  "themes": [
+    {
+      "id": "remote_meeting",
+      "name": "リモート会議",
+      "icon": "🎙️",
+      "questions": [
+        {
+          "id": "rm_001",
+          "japanese": "マイクがミュートになっているようです",
+          "answer": ["Your", "mic", "seems", "muted"],
+          "distractors": ["camera", "is", "on", "off", "the"]
+        },
+        {
+          "id": "rm_002",
+          "japanese": "鈴木さんは少し遅れて参加します",
+          "answer": ["Suzuki", "will", "join", "shortly"],
+          "distractors": ["late", "soon", "later", "us", "a"]
+        },
+        {
+          "id": "rm_003",
+          "japanese": "このスライドはあとで共有していただけますか？",
+          "answer": ["Could", "you", "share", "the", "slides", "later"],
+          "distractors": ["please", "send", "this", "deck", "after"]
+        },
+        {
+          "id": "rm_004",
+          "japanese": "音声が途切れています",
+          "answer": ["Your", "audio", "is", "breaking", "up"],
+          "distractors": ["voice", "cutting", "out", "sound", "mic"]
+        },
+        {
+          "id": "rm_005",
+          "japanese": "カメラをオンにしていただけますか？",
+          "answer": ["Could", "you", "turn", "on", "your", "camera"],
+          "distractors": ["please", "enable", "mic", "video", "the"]
+        },
+        {
+          "id": "rm_006",
+          "japanese": "接続を確認させてください",
+          "answer": ["Let", "me", "check", "my", "connection"],
+          "distractors": ["please", "fix", "internet", "look", "verify"]
+        },
+        {
+          "id": "rm_007",
+          "japanese": "本日の議題を確認しましょう",
+          "answer": ["Let's", "go", "over", "today's", "agenda"],
+          "distractors": ["review", "check", "schedule", "items", "the"]
+        },
+        {
+          "id": "rm_008",
+          "japanese": "画面共有を始めます",
+          "answer": ["I'll", "start", "sharing", "my", "screen"],
+          "distractors": ["begin", "now", "the", "display", "show"]
+        },
+        {
+          "id": "rm_009",
+          "japanese": "このミーティングを録画してもよいですか？",
+          "answer": ["Is", "it", "okay", "to", "record", "this"],
+          "distractors": ["fine", "alright", "meeting", "the", "call"]
+        },
+        {
+          "id": "rm_010",
+          "japanese": "もう少し声を大きくしていただけますか？",
+          "answer": ["Could", "you", "speak", "up", "a", "bit"],
+          "distractors": ["louder", "please", "more", "talk", "little"]
+        },
+        {
+          "id": "rm_011",
+          "japanese": "背景の雑音が多いようです",
+          "answer": ["There's", "a", "lot", "of", "background", "noise"],
+          "distractors": ["some", "too", "much", "static", "your"]
+        },
+        {
+          "id": "rm_012",
+          "japanese": "少々お待ちください",
+          "answer": ["Please", "give", "me", "a", "moment"],
+          "distractors": ["hold", "wait", "second", "just", "one"]
+        },
+        {
+          "id": "rm_013",
+          "japanese": "議事録は後ほど共有します",
+          "answer": ["I'll", "share", "the", "meeting", "notes"],
+          "distractors": ["send", "minutes", "summary", "later", "after"]
+        },
+        {
+          "id": "rm_014",
+          "japanese": "次の議題に移りましょう",
+          "answer": ["Let's", "move", "on", "to", "the", "next", "topic"],
+          "distractors": ["go", "item", "point", "agenda", "now"]
+        },
+        {
+          "id": "rm_015",
+          "japanese": "ご参加いただきありがとうございます",
+          "answer": ["Thank", "you", "all", "for", "joining"],
+          "distractors": ["everyone", "today", "attending", "being", "here"]
+        },
+        {
+          "id": "rm_016",
+          "japanese": "今聞こえていますか？",
+          "answer": ["Can", "you", "hear", "me", "now"],
+          "distractors": ["still", "alright", "okay", "fine", "well"]
+        },
+        {
+          "id": "rm_017",
+          "japanese": "接続が不安定なようです",
+          "answer": ["Your", "connection", "seems", "unstable"],
+          "distractors": ["network", "internet", "looks", "weak", "poor"]
+        },
+        {
+          "id": "rm_018",
+          "japanese": "ミュートを解除してください",
+          "answer": ["Please", "unmute", "yourself"],
+          "distractors": ["your", "mic", "microphone", "the", "now"]
+        },
+        {
+          "id": "rm_019",
+          "japanese": "チャットにリンクを貼ります",
+          "answer": ["I'll", "post", "the", "link", "in", "chat"],
+          "distractors": ["put", "send", "url", "share", "message"]
+        },
+        {
+          "id": "rm_020",
+          "japanese": "それでは始めましょう",
+          "answer": ["Let's", "get", "started"],
+          "distractors": ["begin", "start", "the", "meeting", "now"]
+        },
+        {
+          "id": "rm_021",
+          "japanese": "質問してもよろしいですか？",
+          "answer": ["May", "I", "ask", "a", "question"],
+          "distractors": ["can", "could", "one", "something", "have"]
+        },
+        {
+          "id": "rm_022",
+          "japanese": "本日のミーティングはここまでにします",
+          "answer": ["That's", "all", "for", "today's", "meeting"],
+          "distractors": ["this", "the", "session", "it", "call"]
+        },
+        {
+          "id": "rm_023",
+          "japanese": "詳細はメールでお送りします",
+          "answer": ["I'll", "send", "the", "details", "by", "email"],
+          "distractors": ["follow", "up", "later", "further", "via"]
+        },
+        {
+          "id": "rm_024",
+          "japanese": "次のミーティングを来週に設定しましょう",
+          "answer": ["Let's", "schedule", "a", "meeting", "for", "next", "week"],
+          "distractors": ["call", "set", "up", "another", "the"]
+        },
+        {
+          "id": "rm_025",
+          "japanese": "ご質問はありますか？",
+          "answer": ["Does", "anyone", "have", "any", "questions"],
+          "distractors": ["do", "you", "there", "further", "more"]
+        },
+        {
+          "id": "rm_026",
+          "japanese": "少しお待ちいただけますか？",
+          "answer": ["Can", "you", "hold", "on", "a", "second"],
+          "distractors": ["please", "moment", "minute", "wait", "just"]
+        },
+        {
+          "id": "rm_027",
+          "japanese": "お手元の画面が見えません",
+          "answer": ["I", "can't", "see", "your", "screen"],
+          "distractors": ["don't", "unable", "display", "the", "sharing"]
+        },
+        {
+          "id": "rm_028",
+          "japanese": "もう一度おっしゃっていただけますか？",
+          "answer": ["Could", "you", "say", "that", "again"],
+          "distractors": ["please", "repeat", "once", "more", "pardon"]
+        },
+        {
+          "id": "rm_029",
+          "japanese": "本日の要点をまとめます",
+          "answer": ["Let", "me", "summarize", "today's", "key", "points"],
+          "distractors": ["share", "review", "wrap", "up", "the"]
+        },
+        {
+          "id": "rm_030",
+          "japanese": "画面共有を終了します",
+          "answer": ["I'll", "stop", "sharing", "my", "screen"],
+          "distractors": ["end", "close", "the", "display", "now"]
+        },
+        {
+          "id": "rm_031",
+          "japanese": "音声をテストさせてください",
+          "answer": ["Let", "me", "test", "my", "audio"],
+          "distractors": ["check", "sound", "mic", "the", "voice"]
+        },
+        {
+          "id": "rm_032",
+          "japanese": "全員揃うまで少し待ちましょう",
+          "answer": ["Let's", "wait", "for", "everyone", "to", "join"],
+          "distractors": ["until", "all", "the", "others", "arrive"]
+        },
+        {
+          "id": "rm_033",
+          "japanese": "スピーカーの音量を上げてください",
+          "answer": ["Please", "turn", "up", "your", "volume"],
+          "distractors": ["the", "speaker", "sound", "down", "raise"]
+        },
+        {
+          "id": "rm_034",
+          "japanese": "画面を共有していただけますか",
+          "answer": ["Could", "you", "share", "your", "screen"],
+          "distractors": ["please", "show", "the", "display", "mine"]
+        },
+        {
+          "id": "rm_035",
+          "japanese": "もう少しマイクに近づいて話してください",
+          "answer": ["Please", "speak", "closer", "to", "the", "mic"],
+          "distractors": ["into", "your", "microphone", "near", "louder"]
+        },
+        {
+          "id": "rm_036",
+          "japanese": "そちらは今何時ですか",
+          "answer": ["What", "time", "is", "it", "there"],
+          "distractors": ["now", "your", "side", "the", "zone"]
+        },
+        {
+          "id": "rm_037",
+          "japanese": "回線が落ちてしまいました",
+          "answer": ["I", "got", "disconnected", "from", "the", "call"],
+          "distractors": ["lost", "dropped", "my", "meeting", "connection"]
+        },
+        {
+          "id": "rm_038",
+          "japanese": "再接続しています",
+          "answer": ["I'm", "reconnecting", "now"],
+          "distractors": ["trying", "to", "rejoin", "again", "back"]
+        },
+        {
+          "id": "rm_039",
+          "japanese": "チャットで質問を受け付けます",
+          "answer": ["I'll", "take", "questions", "in", "the", "chat"],
+          "distractors": ["answer", "your", "via", "box", "please"]
+        },
+        {
+          "id": "rm_040",
+          "japanese": "全員ミュートにしてください",
+          "answer": ["Please", "mute", "yourselves", "everyone"],
+          "distractors": ["your", "mics", "all", "the", "now"]
+        },
+        {
+          "id": "rm_041",
+          "japanese": "発言したい方は手を挙げてください",
+          "answer": ["Please", "raise", "your", "hand", "to", "speak"],
+          "distractors": ["if", "want", "the", "button", "up"]
+        },
+        {
+          "id": "rm_042",
+          "japanese": "次のスライドに進みます",
+          "answer": ["Let's", "move", "to", "the", "next", "slide"],
+          "distractors": ["go", "on", "page", "forward", "advance"]
+        },
+        {
+          "id": "rm_043",
+          "japanese": "前のスライドに戻れますか",
+          "answer": ["Could", "you", "go", "back", "one", "slide"],
+          "distractors": ["please", "return", "previous", "the", "page"]
+        },
+        {
+          "id": "rm_044",
+          "japanese": "録画を一時停止します",
+          "answer": ["I'll", "pause", "the", "recording"],
+          "distractors": ["stop", "start", "resume", "now", "video"]
+        },
+        {
+          "id": "rm_045",
+          "japanese": "皆さんよく聞こえていますか",
+          "answer": ["Can", "everyone", "hear", "me", "clearly"],
+          "distractors": ["you", "all", "well", "now", "okay"]
+        },
+        {
+          "id": "rm_046",
+          "japanese": "少し休憩を取りましょう",
+          "answer": ["Let's", "take", "a", "short", "break"],
+          "distractors": ["have", "quick", "five", "minute", "rest"]
+        },
+        {
+          "id": "rm_047",
+          "japanese": "5分後に再開します",
+          "answer": ["We'll", "resume", "in", "five", "minutes"],
+          "distractors": ["start", "again", "back", "ten", "soon"]
+        },
+        {
+          "id": "rm_048",
+          "japanese": "ご意見をお聞かせください",
+          "answer": ["I'd", "like", "to", "hear", "your", "thoughts"],
+          "distractors": ["love", "know", "opinion", "feedback", "please"]
+        },
+        {
+          "id": "rm_049",
+          "japanese": "時間が押しています",
+          "answer": ["We're", "running", "out", "of", "time"],
+          "distractors": ["short", "late", "low", "on", "behind"]
+        },
+        {
+          "id": "rm_050",
+          "japanese": "本日はお集まりいただき感謝します",
+          "answer": ["Thanks", "for", "making", "the", "time", "today"],
+          "distractors": ["taking", "your", "to", "join", "everyone"]
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "name": "一般ビジネス",
+      "icon": "💼",
+      "questions": [
+        {
+          "id": "gb_001",
+          "japanese": "はじめまして",
+          "answer": ["Nice", "to", "meet", "you"],
+          "distractors": ["great", "good", "see", "happy", "glad"]
+        },
+        {
+          "id": "gb_002",
+          "japanese": "私はソフトウェアエンジニアです",
+          "answer": ["I'm", "a", "software", "engineer"],
+          "distractors": ["work", "as", "am", "developer", "the"]
+        },
+        {
+          "id": "gb_003",
+          "japanese": "次回のミーティングで詳細を話し合いましょう",
+          "answer": ["Let's", "discuss", "the", "details", "at", "our", "next", "meeting"],
+          "distractors": ["talk", "cover", "further", "about", "tomorrow"]
+        },
+        {
+          "id": "gb_004",
+          "japanese": "一緒に働けることを楽しみにしています",
+          "answer": ["I", "look", "forward", "to", "working", "with", "you"],
+          "distractors": ["hope", "am", "excited", "our", "together"]
+        },
+        {
+          "id": "gb_005",
+          "japanese": "ご連絡いただきありがとうございます",
+          "answer": ["Thank", "you", "for", "reaching", "out"],
+          "distractors": ["contacting", "getting", "in", "touch", "your"]
+        },
+        {
+          "id": "gb_006",
+          "japanese": "ご確認をお願いします",
+          "answer": ["Please", "take", "a", "look"],
+          "distractors": ["review", "check", "careful", "quick", "this"]
+        },
+        {
+          "id": "gb_007",
+          "japanese": "少しお時間をいただけますか？",
+          "answer": ["Do", "you", "have", "a", "moment"],
+          "distractors": ["could", "can", "spare", "minute", "second"]
+        },
+        {
+          "id": "gb_008",
+          "japanese": "いつが都合がよいですか？",
+          "answer": ["When", "is", "a", "good", "time", "for", "you"],
+          "distractors": ["convenient", "best", "available", "free", "what"]
+        },
+        {
+          "id": "gb_009",
+          "japanese": "ご不明な点があればご連絡ください",
+          "answer": ["Please", "let", "me", "know", "if", "you", "have", "questions"],
+          "distractors": ["any", "further", "feel", "free", "need"]
+        },
+        {
+          "id": "gb_010",
+          "japanese": "こちらで対応します",
+          "answer": ["I'll", "take", "care", "of", "it"],
+          "distractors": ["handle", "this", "that", "the", "deal"]
+        },
+        {
+          "id": "gb_011",
+          "japanese": "プロジェクトの進捗をご報告します",
+          "answer": ["Let", "me", "update", "you", "on", "the", "project"],
+          "distractors": ["give", "share", "status", "progress", "report"]
+        },
+        {
+          "id": "gb_012",
+          "japanese": "締め切りは来週の金曜日です",
+          "answer": ["The", "deadline", "is", "next", "Friday"],
+          "distractors": ["due", "date", "week", "on", "this"]
+        },
+        {
+          "id": "gb_013",
+          "japanese": "提案書をお送りします",
+          "answer": ["I'll", "send", "you", "the", "proposal"],
+          "distractors": ["forward", "share", "document", "draft", "our"]
+        },
+        {
+          "id": "gb_014",
+          "japanese": "ご確認いただけますか？",
+          "answer": ["Could", "you", "review", "this"],
+          "distractors": ["please", "check", "look", "at", "over"]
+        },
+        {
+          "id": "gb_015",
+          "japanese": "ご都合はいかがでしょうか？",
+          "answer": ["Does", "that", "work", "for", "you"],
+          "distractors": ["this", "suit", "fit", "schedule", "time"]
+        },
+        {
+          "id": "gb_016",
+          "japanese": "問題ありません",
+          "answer": ["No", "problem", "at", "all"],
+          "distractors": ["issue", "worries", "there", "is", "with"]
+        },
+        {
+          "id": "gb_017",
+          "japanese": "少し時間をください",
+          "answer": ["Give", "me", "some", "time"],
+          "distractors": ["just", "a", "little", "please", "need"]
+        },
+        {
+          "id": "gb_018",
+          "japanese": "チームに確認します",
+          "answer": ["I'll", "check", "with", "the", "team"],
+          "distractors": ["my", "our", "manager", "ask", "look"]
+        },
+        {
+          "id": "gb_019",
+          "japanese": "ご不便をおかけして申し訳ありません",
+          "answer": ["I'm", "sorry", "for", "the", "inconvenience"],
+          "distractors": ["apologize", "trouble", "any", "this", "caused"]
+        },
+        {
+          "id": "gb_020",
+          "japanese": "この件は私が対応します",
+          "answer": ["I'll", "handle", "this", "matter"],
+          "distractors": ["take", "care", "issue", "deal", "with"]
+        },
+        {
+          "id": "gb_021",
+          "japanese": "ご検討いただきありがとうございます",
+          "answer": ["Thank", "you", "for", "your", "consideration"],
+          "distractors": ["attention", "time", "review", "support", "continued"]
+        },
+        {
+          "id": "gb_022",
+          "japanese": "後ほどご連絡します",
+          "answer": ["I'll", "get", "back", "to", "you"],
+          "distractors": ["contact", "follow", "up", "reach", "shortly"]
+        },
+        {
+          "id": "gb_023",
+          "japanese": "それは良い提案です",
+          "answer": ["That's", "a", "great", "suggestion"],
+          "distractors": ["good", "excellent", "idea", "point", "proposal"]
+        },
+        {
+          "id": "gb_024",
+          "japanese": "確認してから改めてご連絡します",
+          "answer": ["Let", "me", "confirm", "and", "get", "back", "to", "you"],
+          "distractors": ["check", "then", "will", "answer", "first"]
+        },
+        {
+          "id": "gb_025",
+          "japanese": "ミーティングの日程を変更できますか？",
+          "answer": ["Can", "we", "reschedule", "the", "meeting"],
+          "distractors": ["change", "move", "shift", "our", "call"]
+        },
+        {
+          "id": "gb_026",
+          "japanese": "詳しくお聞かせいただけますか？",
+          "answer": ["Could", "you", "elaborate", "on", "that"],
+          "distractors": ["explain", "tell", "more", "please", "us"]
+        },
+        {
+          "id": "gb_027",
+          "japanese": "ファイルを添付しました",
+          "answer": ["I've", "attached", "the", "file"],
+          "distractors": ["sent", "document", "included", "files", "report"]
+        },
+        {
+          "id": "gb_028",
+          "japanese": "ご連絡をお待ちしております",
+          "answer": ["I", "look", "forward", "to", "hearing", "from", "you"],
+          "distractors": ["am", "your", "response", "reply", "news"]
+        },
+        {
+          "id": "gb_029",
+          "japanese": "添付の見積もりをご確認ください",
+          "answer": ["Please", "review", "the", "attached", "quote"],
+          "distractors": ["check", "see", "our", "estimate", "proposal"]
+        },
+        {
+          "id": "gb_030",
+          "japanese": "それに同意します",
+          "answer": ["I", "agree", "with", "that"],
+          "distractors": ["on", "think", "point", "this", "completely"]
+        },
+        {
+          "id": "gb_031",
+          "japanese": "お会いできて光栄です",
+          "answer": ["It's", "an", "honor", "to", "meet", "you"],
+          "distractors": ["pleasure", "great", "nice", "really", "see"]
+        },
+        {
+          "id": "gb_032",
+          "japanese": "名刺を交換しましょう",
+          "answer": ["Let's", "exchange", "business", "cards"],
+          "distractors": ["swap", "trade", "our", "name", "contact"]
+        },
+        {
+          "id": "gb_033",
+          "japanese": "こちらが私の連絡先です",
+          "answer": ["Here", "is", "my", "contact", "information"],
+          "distractors": ["are", "details", "number", "email", "card"]
+        },
+        {
+          "id": "gb_034",
+          "japanese": "近いうちにランチでもいかがですか",
+          "answer": ["How", "about", "lunch", "sometime", "soon"],
+          "distractors": ["dinner", "coffee", "later", "this", "week"]
+        },
+        {
+          "id": "gb_035",
+          "japanese": "ご協力ありがとうございます",
+          "answer": ["Thank", "you", "for", "your", "cooperation"],
+          "distractors": ["help", "support", "kindness", "time", "continued"]
+        },
+        {
+          "id": "gb_036",
+          "japanese": "了解しました",
+          "answer": ["Understood"],
+          "distractors": ["okay", "sure", "got", "it", "fine"]
+        },
+        {
+          "id": "gb_037",
+          "japanese": "それで問題ありません",
+          "answer": ["That", "works", "fine", "for", "me"],
+          "distractors": ["is", "okay", "good", "with", "us"]
+        },
+        {
+          "id": "gb_038",
+          "japanese": "資料を準備しておきます",
+          "answer": ["I'll", "prepare", "the", "materials"],
+          "distractors": ["documents", "get", "ready", "files", "slides"]
+        },
+        {
+          "id": "gb_039",
+          "japanese": "予算内に収める必要があります",
+          "answer": ["We", "need", "to", "stay", "within", "budget"],
+          "distractors": ["keep", "under", "the", "our", "limit"]
+        },
+        {
+          "id": "gb_040",
+          "japanese": "期日までに終わらせます",
+          "answer": ["I'll", "finish", "it", "by", "the", "deadline"],
+          "distractors": ["complete", "done", "due", "date", "before"]
+        },
+        {
+          "id": "gb_041",
+          "japanese": "もう一度説明していただけますか",
+          "answer": ["Could", "you", "explain", "that", "again"],
+          "distractors": ["please", "repeat", "once", "more", "clarify"]
+        },
+        {
+          "id": "gb_042",
+          "japanese": "おっしゃる通りです",
+          "answer": ["You're", "absolutely", "right"],
+          "distractors": ["completely", "exactly", "correct", "quite", "so"]
+        },
+        {
+          "id": "gb_043",
+          "japanese": "それは検討します",
+          "answer": ["I'll", "think", "about", "it"],
+          "distractors": ["consider", "look", "into", "that", "over"]
+        },
+        {
+          "id": "gb_044",
+          "japanese": "ご足労いただき恐縮です",
+          "answer": ["Thank", "you", "for", "coming", "in"],
+          "distractors": ["over", "by", "today", "your", "visit"]
+        },
+        {
+          "id": "gb_045",
+          "japanese": "今週は予定が埋まっています",
+          "answer": ["My", "schedule", "is", "full", "this", "week"],
+          "distractors": ["calendar", "booked", "busy", "packed", "the"]
+        },
+        {
+          "id": "gb_046",
+          "japanese": "来週に持ち越しましょう",
+          "answer": ["Let's", "push", "it", "to", "next", "week"],
+          "distractors": ["move", "carry", "over", "postpone", "the"]
+        },
+        {
+          "id": "gb_047",
+          "japanese": "ご理解に感謝します",
+          "answer": ["Thank", "you", "for", "understanding"],
+          "distractors": ["your", "patience", "being", "so", "kind"]
+        },
+        {
+          "id": "gb_048",
+          "japanese": "またのご連絡をお待ちしています",
+          "answer": ["I", "hope", "to", "hear", "from", "you", "soon"],
+          "distractors": ["look", "forward", "your", "reply", "again"]
+        },
+        {
+          "id": "gb_049",
+          "japanese": "それは私の担当ではありません",
+          "answer": ["That's", "not", "my", "responsibility"],
+          "distractors": ["area", "job", "task", "under", "role"]
+        },
+        {
+          "id": "gb_050",
+          "japanese": "引き続きよろしくお願いします",
+          "answer": ["Thank", "you", "for", "your", "continued", "support"],
+          "distractors": ["ongoing", "help", "cooperation", "further", "kindness"]
+        }
+      ]
+    },
+    {
+      "id": "email_chat",
+      "name": "メール・チャット",
+      "icon": "✉️",
+      "questions": [
+        {
+          "id": "em_001",
+          "japanese": "お世話になっております",
+          "answer": ["I", "hope", "this", "email", "finds", "you", "well"],
+          "distractors": ["message", "note", "you're", "doing", "reaches"]
+        },
+        {
+          "id": "em_002",
+          "japanese": "ご返信ありがとうございます",
+          "answer": ["Thank", "you", "for", "your", "reply"],
+          "distractors": ["response", "getting", "back", "quick", "prompt"]
+        },
+        {
+          "id": "em_003",
+          "japanese": "件名の件についてご連絡します",
+          "answer": ["I'm", "writing", "about", "the", "subject", "line"],
+          "distractors": ["regarding", "concerning", "this", "matter", "topic"]
+        },
+        {
+          "id": "em_004",
+          "japanese": "添付ファイルをご確認ください",
+          "answer": ["Please", "find", "the", "attachment", "below"],
+          "distractors": ["see", "attached", "file", "document", "enclosed"]
+        },
+        {
+          "id": "em_005",
+          "japanese": "ご質問があればお知らせください",
+          "answer": ["Let", "me", "know", "if", "you", "have", "questions"],
+          "distractors": ["any", "further", "need", "anything", "please"]
+        },
+        {
+          "id": "em_006",
+          "japanese": "早急にご対応ください",
+          "answer": ["Please", "respond", "right", "away"],
+          "distractors": ["reply", "quickly", "urgent", "soon", "asap"]
+        },
+        {
+          "id": "em_007",
+          "japanese": "ご確認のほどよろしくお願いします",
+          "answer": ["Please", "confirm", "when", "you", "can"],
+          "distractors": ["check", "review", "let", "know", "reply"]
+        },
+        {
+          "id": "em_008",
+          "japanese": "折り返しご連絡します",
+          "answer": ["I'll", "get", "back", "to", "you", "shortly"],
+          "distractors": ["reply", "respond", "soon", "later", "contact"]
+        },
+        {
+          "id": "em_009",
+          "japanese": "ご無沙汰しております",
+          "answer": ["It's", "been", "a", "while"],
+          "distractors": ["long", "time", "since", "we", "talked"]
+        },
+        {
+          "id": "em_010",
+          "japanese": "メールを転送します",
+          "answer": ["I'll", "forward", "you", "the", "email"],
+          "distractors": ["send", "message", "pass", "along", "this"]
+        },
+        {
+          "id": "em_011",
+          "japanese": "CCに上司を入れています",
+          "answer": ["I've", "cc'd", "my", "manager", "here"],
+          "distractors": ["added", "boss", "copied", "on", "this"]
+        },
+        {
+          "id": "em_012",
+          "japanese": "後ほど詳細をお送りします",
+          "answer": ["I'll", "send", "the", "details", "later"],
+          "distractors": ["share", "more", "info", "soon", "further"]
+        },
+        {
+          "id": "em_013",
+          "japanese": "ご確認いただけますと幸いです",
+          "answer": ["I'd", "appreciate", "your", "confirmation"],
+          "distractors": ["would", "review", "reply", "feedback", "response"]
+        },
+        {
+          "id": "em_014",
+          "japanese": "お忙しいところ恐縮です",
+          "answer": ["Sorry", "to", "bother", "you"],
+          "distractors": ["trouble", "disturb", "busy", "interrupt", "again"]
+        },
+        {
+          "id": "em_015",
+          "japanese": "リマインドのご連絡です",
+          "answer": ["This", "is", "a", "friendly", "reminder"],
+          "distractors": ["just", "quick", "gentle", "note", "follow"]
+        },
+        {
+          "id": "em_016",
+          "japanese": "前回のメールに続いてのご連絡です",
+          "answer": ["I'm", "following", "up", "on", "my", "email"],
+          "distractors": ["last", "previous", "earlier", "message", "note"]
+        },
+        {
+          "id": "em_017",
+          "japanese": "ご都合のよい日時をお知らせください",
+          "answer": ["Please", "let", "me", "know", "your", "availability"],
+          "distractors": ["tell", "when", "free", "time", "schedule"]
+        },
+        {
+          "id": "em_018",
+          "japanese": "添付のとおりです",
+          "answer": ["Please", "see", "the", "attached", "document"],
+          "distractors": ["find", "file", "below", "enclosed", "report"]
+        },
+        {
+          "id": "em_019",
+          "japanese": "ご返信は不要です",
+          "answer": ["No", "reply", "is", "needed"],
+          "distractors": ["response", "necessary", "required", "just", "fyi"]
+        },
+        {
+          "id": "em_020",
+          "japanese": "取り急ぎご連絡まで",
+          "answer": ["Just", "a", "quick", "note"],
+          "distractors": ["short", "message", "brief", "update", "heads"]
+        },
+        {
+          "id": "em_021",
+          "japanese": "詳細は以下のとおりです",
+          "answer": ["The", "details", "are", "as", "follows"],
+          "distractors": ["below", "here", "listed", "information", "shown"]
+        },
+        {
+          "id": "em_022",
+          "japanese": "ご対応ありがとうございました",
+          "answer": ["Thank", "you", "for", "handling", "this"],
+          "distractors": ["taking", "care", "sorting", "it", "out"]
+        },
+        {
+          "id": "em_023",
+          "japanese": "念のためお送りします",
+          "answer": ["I'm", "sending", "this", "just", "in", "case"],
+          "distractors": ["sharing", "forwarding", "for", "reference", "safety"]
+        },
+        {
+          "id": "em_024",
+          "japanese": "ご連絡お待ちしております",
+          "answer": ["I", "look", "forward", "to", "your", "reply"],
+          "distractors": ["hearing", "response", "await", "soon", "back"]
+        },
+        {
+          "id": "em_025",
+          "japanese": "メールが行き違いになりました",
+          "answer": ["Our", "emails", "must", "have", "crossed"],
+          "distractors": ["messages", "got", "mixed", "up", "each"]
+        },
+        {
+          "id": "em_026",
+          "japanese": "ご認識のとおりです",
+          "answer": ["That's", "exactly", "right"],
+          "distractors": ["correct", "true", "my", "understanding", "precisely"]
+        },
+        {
+          "id": "em_027",
+          "japanese": "追って連絡します",
+          "answer": ["I'll", "follow", "up", "with", "you"],
+          "distractors": ["get", "back", "reach", "out", "later"]
+        },
+        {
+          "id": "em_028",
+          "japanese": "資料を共有いたします",
+          "answer": ["I'd", "like", "to", "share", "this", "file"],
+          "distractors": ["want", "document", "with", "you", "send"]
+        },
+        {
+          "id": "em_029",
+          "japanese": "本件についてご相談があります",
+          "answer": ["I", "have", "a", "question", "about", "this"],
+          "distractors": ["concern", "matter", "regarding", "need", "ask"]
+        },
+        {
+          "id": "em_030",
+          "japanese": "ご報告まで",
+          "answer": ["Just", "keeping", "you", "posted"],
+          "distractors": ["updated", "informed", "in", "loop", "aware"]
+        },
+        {
+          "id": "em_031",
+          "japanese": "確認次第ご連絡します",
+          "answer": ["I'll", "let", "you", "know", "once", "confirmed"],
+          "distractors": ["after", "when", "checked", "reply", "then"]
+        },
+        {
+          "id": "em_032",
+          "japanese": "添付を差し替えました",
+          "answer": ["I've", "updated", "the", "attachment"],
+          "distractors": ["replaced", "changed", "new", "file", "revised"]
+        },
+        {
+          "id": "em_033",
+          "japanese": "先ほどのメールは無視してください",
+          "answer": ["Please", "ignore", "my", "last", "email"],
+          "distractors": ["disregard", "previous", "message", "earlier", "note"]
+        },
+        {
+          "id": "em_034",
+          "japanese": "誤って送信しました",
+          "answer": ["I", "sent", "that", "by", "mistake"],
+          "distractors": ["wrongly", "accidentally", "error", "wrong", "sorry"]
+        },
+        {
+          "id": "em_035",
+          "japanese": "期限を延長していただけますか",
+          "answer": ["Could", "you", "extend", "the", "deadline"],
+          "distractors": ["please", "push", "date", "move", "due"]
+        },
+        {
+          "id": "em_036",
+          "japanese": "承知いたしました",
+          "answer": ["Noted", "with", "thanks"],
+          "distractors": ["okay", "got", "it", "sure", "understood"]
+        },
+        {
+          "id": "em_037",
+          "japanese": "ご査収ください",
+          "answer": ["Please", "check", "and", "confirm"],
+          "distractors": ["review", "verify", "look", "accept", "receive"]
+        },
+        {
+          "id": "em_038",
+          "japanese": "本文に記載しました",
+          "answer": ["I've", "written", "it", "in", "the", "body"],
+          "distractors": ["put", "included", "message", "email", "text"]
+        },
+        {
+          "id": "em_039",
+          "japanese": "宛先を間違えました",
+          "answer": ["I", "had", "the", "wrong", "recipient"],
+          "distractors": ["sent", "address", "person", "email", "mistake"]
+        },
+        {
+          "id": "em_040",
+          "japanese": "進捗があり次第お知らせします",
+          "answer": ["I'll", "update", "you", "on", "any", "progress"],
+          "distractors": ["let", "know", "news", "status", "changes"]
+        },
+        {
+          "id": "em_041",
+          "japanese": "ご一読ください",
+          "answer": ["Please", "read", "through", "this"],
+          "distractors": ["over", "look", "review", "check", "carefully"]
+        },
+        {
+          "id": "em_042",
+          "japanese": "リンクを共有します",
+          "answer": ["Here's", "the", "link", "you", "need"],
+          "distractors": ["is", "url", "page", "website", "share"]
+        },
+        {
+          "id": "em_043",
+          "japanese": "返信が遅くなり申し訳ありません",
+          "answer": ["Sorry", "for", "the", "late", "reply"],
+          "distractors": ["delayed", "slow", "response", "my", "apologies"]
+        },
+        {
+          "id": "em_044",
+          "japanese": "今後ともよろしくお願いします",
+          "answer": ["I", "look", "forward", "to", "working", "together"],
+          "distractors": ["with", "you", "our", "continued", "ahead"]
+        },
+        {
+          "id": "em_045",
+          "japanese": "別途メールいたします",
+          "answer": ["I'll", "email", "you", "separately"],
+          "distractors": ["send", "message", "another", "write", "soon"]
+        },
+        {
+          "id": "em_046",
+          "japanese": "ご了承ください",
+          "answer": ["Thank", "you", "for", "your", "understanding"],
+          "distractors": ["patience", "kindness", "being", "so", "cooperation"]
+        },
+        {
+          "id": "em_047",
+          "japanese": "本日中にお送りします",
+          "answer": ["I'll", "send", "it", "by", "today"],
+          "distractors": ["share", "end", "of", "day", "soon"]
+        },
+        {
+          "id": "em_048",
+          "japanese": "メールアドレスをお教えください",
+          "answer": ["Could", "you", "share", "your", "email", "address"],
+          "distractors": ["please", "give", "tell", "me", "contact"]
+        },
+        {
+          "id": "em_049",
+          "japanese": "ご連絡先を更新しました",
+          "answer": ["I've", "updated", "my", "contact", "details"],
+          "distractors": ["new", "information", "number", "changed", "email"]
+        },
+        {
+          "id": "em_050",
+          "japanese": "引き続き状況をお知らせください",
+          "answer": ["Please", "keep", "me", "updated", "on", "this"],
+          "distractors": ["posted", "informed", "handle", "continue", "matter"]
+        }
+      ]
+    },
+    {
+      "id": "presentation",
+      "name": "プレゼン・発表",
+      "icon": "📊",
+      "questions": [
+        {
+          "id": "pr_001",
+          "japanese": "本日はお時間をいただきありがとうございます",
+          "answer": ["Thank", "you", "for", "your", "time", "today"],
+          "distractors": ["everyone", "being", "here", "joining", "attention"]
+        },
+        {
+          "id": "pr_002",
+          "japanese": "それでは始めます",
+          "answer": ["Let's", "get", "started"],
+          "distractors": ["begin", "start", "now", "go", "ahead"]
+        },
+        {
+          "id": "pr_003",
+          "japanese": "本日のテーマはこちらです",
+          "answer": ["Here's", "today's", "topic"],
+          "distractors": ["is", "our", "main", "subject", "theme"]
+        },
+        {
+          "id": "pr_004",
+          "japanese": "まず概要をご説明します",
+          "answer": ["Let", "me", "start", "with", "an", "overview"],
+          "distractors": ["begin", "give", "summary", "brief", "the"]
+        },
+        {
+          "id": "pr_005",
+          "japanese": "次のスライドをご覧ください",
+          "answer": ["Let's", "look", "at", "the", "next", "slide"],
+          "distractors": ["move", "go", "to", "page", "forward"]
+        },
+        {
+          "id": "pr_006",
+          "japanese": "このグラフは売上を示しています",
+          "answer": ["This", "chart", "shows", "our", "sales"],
+          "distractors": ["graph", "represents", "the", "revenue", "figures"]
+        },
+        {
+          "id": "pr_007",
+          "japanese": "ご覧のとおり数字は伸びています",
+          "answer": ["As", "you", "can", "see", "numbers", "are", "rising"],
+          "distractors": ["the", "growing", "up", "figures", "increasing"]
+        },
+        {
+          "id": "pr_008",
+          "japanese": "重要なポイントは3つあります",
+          "answer": ["There", "are", "three", "key", "points"],
+          "distractors": ["main", "important", "my", "top", "things"]
+        },
+        {
+          "id": "pr_009",
+          "japanese": "まず1つ目です",
+          "answer": ["Let's", "start", "with", "the", "first"],
+          "distractors": ["begin", "one", "point", "number", "my"]
+        },
+        {
+          "id": "pr_010",
+          "japanese": "次に移りましょう",
+          "answer": ["Let's", "move", "on"],
+          "distractors": ["go", "next", "forward", "ahead", "continue"]
+        },
+        {
+          "id": "pr_011",
+          "japanese": "ここで一つ例を挙げます",
+          "answer": ["Let", "me", "give", "you", "an", "example"],
+          "distractors": ["share", "show", "one", "sample", "here"]
+        },
+        {
+          "id": "pr_012",
+          "japanese": "結論から申し上げます",
+          "answer": ["Let", "me", "start", "with", "the", "conclusion"],
+          "distractors": ["begin", "my", "point", "end", "result"]
+        },
+        {
+          "id": "pr_013",
+          "japanese": "ご質問は後ほど受け付けます",
+          "answer": ["I'll", "take", "questions", "at", "the", "end"],
+          "distractors": ["answer", "later", "your", "afterward", "after"]
+        },
+        {
+          "id": "pr_014",
+          "japanese": "このデータにご注目ください",
+          "answer": ["Please", "focus", "on", "this", "data"],
+          "distractors": ["look", "at", "the", "figures", "chart"]
+        },
+        {
+          "id": "pr_015",
+          "japanese": "つまりこういうことです",
+          "answer": ["In", "other", "words"],
+          "distractors": ["that", "means", "so", "basically", "simply"]
+        },
+        {
+          "id": "pr_016",
+          "japanese": "詳しく見ていきましょう",
+          "answer": ["Let's", "take", "a", "closer", "look"],
+          "distractors": ["dig", "deeper", "into", "examine", "detail"]
+        },
+        {
+          "id": "pr_017",
+          "japanese": "ここまでで質問はありますか",
+          "answer": ["Any", "questions", "so", "far"],
+          "distractors": ["do", "you", "have", "there", "yet"]
+        },
+        {
+          "id": "pr_018",
+          "japanese": "次のセクションに進みます",
+          "answer": ["Let's", "move", "to", "the", "next", "section"],
+          "distractors": ["go", "on", "part", "chapter", "forward"]
+        },
+        {
+          "id": "pr_019",
+          "japanese": "これがその証拠です",
+          "answer": ["Here's", "the", "proof"],
+          "distractors": ["is", "evidence", "my", "that", "data"]
+        },
+        {
+          "id": "pr_020",
+          "japanese": "数字を見てみましょう",
+          "answer": ["Let's", "look", "at", "the", "numbers"],
+          "distractors": ["check", "see", "figures", "data", "stats"]
+        },
+        {
+          "id": "pr_021",
+          "japanese": "この点を強調したいと思います",
+          "answer": ["I'd", "like", "to", "stress", "this", "point"],
+          "distractors": ["emphasize", "highlight", "want", "make", "note"]
+        },
+        {
+          "id": "pr_022",
+          "japanese": "時間の都合で先に進みます",
+          "answer": ["Let's", "move", "on", "for", "time"],
+          "distractors": ["due", "to", "ahead", "sake", "quickly"]
+        },
+        {
+          "id": "pr_023",
+          "japanese": "簡単にまとめます",
+          "answer": ["Let", "me", "sum", "this", "up"],
+          "distractors": ["summarize", "wrap", "quickly", "briefly", "review"]
+        },
+        {
+          "id": "pr_024",
+          "japanese": "要点は以下のとおりです",
+          "answer": ["Here", "are", "the", "main", "points"],
+          "distractors": ["key", "my", "takeaways", "summary", "below"]
+        },
+        {
+          "id": "pr_025",
+          "japanese": "最後にまとめです",
+          "answer": ["Now", "for", "the", "summary"],
+          "distractors": ["finally", "let's", "wrap", "conclusion", "end"]
+        },
+        {
+          "id": "pr_026",
+          "japanese": "ご清聴ありがとうございました",
+          "answer": ["Thank", "you", "for", "listening"],
+          "distractors": ["your", "attention", "time", "being", "here"]
+        },
+        {
+          "id": "pr_027",
+          "japanese": "ご質問をお受けします",
+          "answer": ["I'm", "happy", "to", "take", "questions"],
+          "distractors": ["glad", "answer", "your", "now", "any"]
+        },
+        {
+          "id": "pr_028",
+          "japanese": "良いご質問ですね",
+          "answer": ["That's", "a", "great", "question"],
+          "distractors": ["good", "excellent", "interesting", "very", "nice"]
+        },
+        {
+          "id": "pr_029",
+          "japanese": "後ほど個別にお答えします",
+          "answer": ["I'll", "answer", "that", "later", "privately"],
+          "distractors": ["respond", "afterward", "one", "separately", "offline"]
+        },
+        {
+          "id": "pr_030",
+          "japanese": "もう少し詳しく説明します",
+          "answer": ["Let", "me", "explain", "further"],
+          "distractors": ["elaborate", "more", "detail", "clarify", "add"]
+        },
+        {
+          "id": "pr_031",
+          "japanese": "全体像をお見せします",
+          "answer": ["Let", "me", "show", "the", "big", "picture"],
+          "distractors": ["you", "whole", "overview", "full", "view"]
+        },
+        {
+          "id": "pr_032",
+          "japanese": "背景から説明します",
+          "answer": ["Let", "me", "give", "some", "background"],
+          "distractors": ["start", "with", "the", "context", "first"]
+        },
+        {
+          "id": "pr_033",
+          "japanese": "ここが核心です",
+          "answer": ["This", "is", "the", "key", "part"],
+          "distractors": ["main", "core", "important", "central", "point"]
+        },
+        {
+          "id": "pr_034",
+          "japanese": "比較してみましょう",
+          "answer": ["Let's", "compare", "these", "two"],
+          "distractors": ["look", "at", "both", "contrast", "them"]
+        },
+        {
+          "id": "pr_035",
+          "japanese": "次の課題に移ります",
+          "answer": ["Let's", "turn", "to", "the", "next", "issue"],
+          "distractors": ["move", "challenge", "problem", "topic", "on"]
+        },
+        {
+          "id": "pr_036",
+          "japanese": "このアイデアを提案します",
+          "answer": ["I'd", "like", "to", "propose", "this", "idea"],
+          "distractors": ["suggest", "present", "want", "plan", "approach"]
+        },
+        {
+          "id": "pr_037",
+          "japanese": "デモをお見せします",
+          "answer": ["Let", "me", "show", "you", "a", "demo"],
+          "distractors": ["give", "quick", "run", "example", "through"]
+        },
+        {
+          "id": "pr_038",
+          "japanese": "画面を切り替えます",
+          "answer": ["Let", "me", "switch", "the", "screen"],
+          "distractors": ["change", "view", "display", "over", "share"]
+        },
+        {
+          "id": "pr_039",
+          "japanese": "資料は後で共有します",
+          "answer": ["I'll", "share", "the", "slides", "afterward"],
+          "distractors": ["send", "deck", "later", "materials", "after"]
+        },
+        {
+          "id": "pr_040",
+          "japanese": "ご意見をお聞かせください",
+          "answer": ["I'd", "love", "to", "hear", "your", "feedback"],
+          "distractors": ["like", "thoughts", "opinion", "input", "know"]
+        },
+        {
+          "id": "pr_041",
+          "japanese": "この結果は予想以上でした",
+          "answer": ["The", "results", "exceeded", "our", "expectations"],
+          "distractors": ["beat", "were", "better", "than", "expected"]
+        },
+        {
+          "id": "pr_042",
+          "japanese": "次のステップを説明します",
+          "answer": ["Let", "me", "explain", "the", "next", "steps"],
+          "distractors": ["outline", "share", "our", "plan", "actions"]
+        },
+        {
+          "id": "pr_043",
+          "japanese": "ここで休憩を挟みます",
+          "answer": ["Let's", "take", "a", "quick", "break"],
+          "distractors": ["have", "short", "five", "pause", "rest"]
+        },
+        {
+          "id": "pr_044",
+          "japanese": "話を戻します",
+          "answer": ["Let's", "get", "back", "on", "track"],
+          "distractors": ["return", "to", "topic", "point", "main"]
+        },
+        {
+          "id": "pr_045",
+          "japanese": "もう一度繰り返します",
+          "answer": ["Let", "me", "repeat", "that"],
+          "distractors": ["say", "again", "once", "more", "review"]
+        },
+        {
+          "id": "pr_046",
+          "japanese": "図をご覧ください",
+          "answer": ["Please", "look", "at", "the", "diagram"],
+          "distractors": ["see", "chart", "figure", "image", "graph"]
+        },
+        {
+          "id": "pr_047",
+          "japanese": "結論はシンプルです",
+          "answer": ["The", "conclusion", "is", "simple"],
+          "distractors": ["my", "point", "clear", "easy", "obvious"]
+        },
+        {
+          "id": "pr_048",
+          "japanese": "これで終わります",
+          "answer": ["That", "brings", "us", "to", "the", "end"],
+          "distractors": ["concludes", "wraps", "this", "up", "finishes"]
+        },
+        {
+          "id": "pr_049",
+          "japanese": "ご協力に感謝します",
+          "answer": ["Thank", "you", "for", "your", "support"],
+          "distractors": ["help", "cooperation", "time", "attention", "being"]
+        },
+        {
+          "id": "pr_050",
+          "japanese": "また次回お会いしましょう",
+          "answer": ["See", "you", "next", "time"],
+          "distractors": ["again", "later", "soon", "around", "everyone"]
+        }
+      ]
+    },
+    {
+      "id": "business_trip",
+      "name": "出張・空港・ホテル",
+      "icon": "✈️",
+      "questions": [
+        {
+          "id": "tr_001",
+          "japanese": "チェックインをお願いします",
+          "answer": ["I'd", "like", "to", "check", "in"],
+          "distractors": ["please", "now", "my", "room", "here"]
+        },
+        {
+          "id": "tr_002",
+          "japanese": "予約をしています",
+          "answer": ["I", "have", "a", "reservation"],
+          "distractors": ["booking", "made", "booked", "got", "my"]
+        },
+        {
+          "id": "tr_003",
+          "japanese": "パスポートを見せていただけますか",
+          "answer": ["May", "I", "see", "your", "passport"],
+          "distractors": ["can", "could", "id", "ticket", "please"]
+        },
+        {
+          "id": "tr_004",
+          "japanese": "窓側の席をお願いします",
+          "answer": ["I'd", "like", "a", "window", "seat"],
+          "distractors": ["aisle", "prefer", "please", "by", "the"]
+        },
+        {
+          "id": "tr_005",
+          "japanese": "搭乗券はこちらです",
+          "answer": ["Here", "is", "my", "boarding", "pass"],
+          "distractors": ["ticket", "are", "the", "your", "card"]
+        },
+        {
+          "id": "tr_006",
+          "japanese": "搭乗ゲートはどこですか",
+          "answer": ["Where", "is", "the", "boarding", "gate"],
+          "distractors": ["which", "my", "departure", "number", "terminal"]
+        },
+        {
+          "id": "tr_007",
+          "japanese": "フライトが遅れています",
+          "answer": ["My", "flight", "is", "delayed"],
+          "distractors": ["the", "late", "cancelled", "behind", "running"]
+        },
+        {
+          "id": "tr_008",
+          "japanese": "荷物を預けたいです",
+          "answer": ["I'd", "like", "to", "check", "my", "bags"],
+          "distractors": ["luggage", "please", "drop", "off", "suitcase"]
+        },
+        {
+          "id": "tr_009",
+          "japanese": "機内持ち込みのみです",
+          "answer": ["I", "only", "have", "carry-on"],
+          "distractors": ["just", "hand", "luggage", "bags", "my"]
+        },
+        {
+          "id": "tr_010",
+          "japanese": "乗り継ぎ便はありますか",
+          "answer": ["Is", "there", "a", "connecting", "flight"],
+          "distractors": ["any", "transfer", "next", "my", "another"]
+        },
+        {
+          "id": "tr_011",
+          "japanese": "両替はどこでできますか",
+          "answer": ["Where", "can", "I", "exchange", "money"],
+          "distractors": ["change", "currency", "cash", "get", "do"]
+        },
+        {
+          "id": "tr_012",
+          "japanese": "タクシー乗り場はどこですか",
+          "answer": ["Where", "is", "the", "taxi", "stand"],
+          "distractors": ["cab", "rank", "pickup", "nearest", "a"]
+        },
+        {
+          "id": "tr_013",
+          "japanese": "市内まで行きたいです",
+          "answer": ["I'd", "like", "to", "go", "downtown"],
+          "distractors": ["into", "the", "city", "center", "please"]
+        },
+        {
+          "id": "tr_014",
+          "japanese": "領収書をいただけますか",
+          "answer": ["Could", "I", "get", "a", "receipt"],
+          "distractors": ["have", "please", "may", "the", "bill"]
+        },
+        {
+          "id": "tr_015",
+          "japanese": "部屋を予約したいです",
+          "answer": ["I'd", "like", "to", "book", "a", "room"],
+          "distractors": ["reserve", "please", "get", "single", "double"]
+        },
+        {
+          "id": "tr_016",
+          "japanese": "空いている部屋はありますか",
+          "answer": ["Do", "you", "have", "any", "rooms", "available"],
+          "distractors": ["a", "room", "free", "vacant", "open"]
+        },
+        {
+          "id": "tr_017",
+          "japanese": "朝食は何時からですか",
+          "answer": ["What", "time", "is", "breakfast"],
+          "distractors": ["when", "does", "start", "served", "included"]
+        },
+        {
+          "id": "tr_018",
+          "japanese": "Wi-Fiのパスワードを教えてください",
+          "answer": ["What's", "the", "Wi-Fi", "password"],
+          "distractors": ["could", "you", "tell", "me", "code"]
+        },
+        {
+          "id": "tr_019",
+          "japanese": "チェックアウトは何時ですか",
+          "answer": ["What", "time", "is", "checkout"],
+          "distractors": ["when", "do", "leave", "the", "by"]
+        },
+        {
+          "id": "tr_020",
+          "japanese": "もう一泊したいのですが",
+          "answer": ["I'd", "like", "to", "stay", "one", "more", "night"],
+          "distractors": ["another", "extra", "please", "extend", "my"]
+        },
+        {
+          "id": "tr_021",
+          "japanese": "領収書を分けていただけますか",
+          "answer": ["Could", "you", "split", "the", "bill"],
+          "distractors": ["separate", "please", "divide", "check", "receipt"]
+        },
+        {
+          "id": "tr_022",
+          "japanese": "荷物を預かっていただけますか",
+          "answer": ["Could", "you", "hold", "my", "luggage"],
+          "distractors": ["keep", "store", "bags", "please", "watch"]
+        },
+        {
+          "id": "tr_023",
+          "japanese": "近くにレストランはありますか",
+          "answer": ["Is", "there", "a", "restaurant", "nearby"],
+          "distractors": ["any", "good", "close", "around", "near"]
+        },
+        {
+          "id": "tr_024",
+          "japanese": "道に迷いました",
+          "answer": ["I", "think", "I'm", "lost"],
+          "distractors": ["got", "am", "my", "way", "turned"]
+        },
+        {
+          "id": "tr_025",
+          "japanese": "ここから駅まで遠いですか",
+          "answer": ["Is", "the", "station", "far", "from", "here"],
+          "distractors": ["how", "close", "near", "a", "walk"]
+        },
+        {
+          "id": "tr_026",
+          "japanese": "タクシーを呼んでいただけますか",
+          "answer": ["Could", "you", "call", "me", "a", "taxi"],
+          "distractors": ["please", "get", "cab", "order", "for"]
+        },
+        {
+          "id": "tr_027",
+          "japanese": "空港まで送ってください",
+          "answer": ["Please", "take", "me", "to", "the", "airport"],
+          "distractors": ["drive", "drop", "at", "off", "terminal"]
+        },
+        {
+          "id": "tr_028",
+          "japanese": "何時に出発しますか",
+          "answer": ["What", "time", "do", "we", "leave"],
+          "distractors": ["when", "does", "depart", "start", "the"]
+        },
+        {
+          "id": "tr_029",
+          "japanese": "予約を変更したいです",
+          "answer": ["I'd", "like", "to", "change", "my", "booking"],
+          "distractors": ["reservation", "modify", "please", "reschedule", "update"]
+        },
+        {
+          "id": "tr_030",
+          "japanese": "席をアップグレードできますか",
+          "answer": ["Can", "I", "upgrade", "my", "seat"],
+          "distractors": ["could", "please", "to", "business", "class"]
+        },
+        {
+          "id": "tr_031",
+          "japanese": "搭乗は何時開始ですか",
+          "answer": ["When", "does", "boarding", "start"],
+          "distractors": ["what", "time", "begin", "the", "gate"]
+        },
+        {
+          "id": "tr_032",
+          "japanese": "遅延の理由は何ですか",
+          "answer": ["Why", "is", "the", "flight", "delayed"],
+          "distractors": ["what", "reason", "for", "late", "cause"]
+        },
+        {
+          "id": "tr_033",
+          "japanese": "次の便に変更できますか",
+          "answer": ["Can", "I", "take", "the", "next", "flight"],
+          "distractors": ["could", "switch", "to", "another", "later"]
+        },
+        {
+          "id": "tr_034",
+          "japanese": "荷物が見つかりません",
+          "answer": ["I", "can't", "find", "my", "luggage"],
+          "distractors": ["lost", "bags", "missing", "suitcase", "locate"]
+        },
+        {
+          "id": "tr_035",
+          "japanese": "預けた荷物が届きません",
+          "answer": ["My", "checked", "bag", "hasn't", "arrived"],
+          "distractors": ["luggage", "didn't", "come", "yet", "missing"]
+        },
+        {
+          "id": "tr_036",
+          "japanese": "税関はどこですか",
+          "answer": ["Where", "is", "customs"],
+          "distractors": ["the", "immigration", "which", "way", "desk"]
+        },
+        {
+          "id": "tr_037",
+          "japanese": "観光が目的です",
+          "answer": ["I'm", "here", "for", "tourism"],
+          "distractors": ["on", "vacation", "sightseeing", "travel", "holiday"]
+        },
+        {
+          "id": "tr_038",
+          "japanese": "出張で来ています",
+          "answer": ["I'm", "here", "on", "business"],
+          "distractors": ["for", "a", "work", "trip", "meeting"]
+        },
+        {
+          "id": "tr_039",
+          "japanese": "5日間滞在します",
+          "answer": ["I'm", "staying", "for", "five", "days"],
+          "distractors": ["here", "a", "week", "nights", "about"]
+        },
+        {
+          "id": "tr_040",
+          "japanese": "ホテルに泊まります",
+          "answer": ["I'm", "staying", "at", "a", "hotel"],
+          "distractors": ["in", "the", "my", "downtown", "nearby"]
+        },
+        {
+          "id": "tr_041",
+          "japanese": "現金で支払います",
+          "answer": ["I'll", "pay", "in", "cash"],
+          "distractors": ["by", "card", "with", "credit", "now"]
+        },
+        {
+          "id": "tr_042",
+          "japanese": "カードは使えますか",
+          "answer": ["Do", "you", "accept", "cards"],
+          "distractors": ["take", "credit", "card", "payment", "cash"]
+        },
+        {
+          "id": "tr_043",
+          "japanese": "もう少し安い部屋はありますか",
+          "answer": ["Do", "you", "have", "a", "cheaper", "room"],
+          "distractors": ["any", "less", "expensive", "budget", "smaller"]
+        },
+        {
+          "id": "tr_044",
+          "japanese": "眺めの良い部屋がいいです",
+          "answer": ["I'd", "like", "a", "room", "with", "views"],
+          "distractors": ["nice", "window", "ocean", "please", "good"]
+        },
+        {
+          "id": "tr_045",
+          "japanese": "エアコンが効きません",
+          "answer": ["The", "air", "conditioning", "isn't", "working"],
+          "distractors": ["heater", "ac", "doesn't", "broken", "won't"]
+        },
+        {
+          "id": "tr_046",
+          "japanese": "タオルを追加でいただけますか",
+          "answer": ["Could", "I", "get", "extra", "towels"],
+          "distractors": ["have", "more", "some", "please", "another"]
+        },
+        {
+          "id": "tr_047",
+          "japanese": "モーニングコールをお願いします",
+          "answer": ["Could", "I", "get", "a", "wake-up", "call"],
+          "distractors": ["have", "please", "morning", "at", "an"]
+        },
+        {
+          "id": "tr_048",
+          "japanese": "近くに地下鉄の駅はありますか",
+          "answer": ["Is", "there", "a", "subway", "station", "nearby"],
+          "distractors": ["any", "metro", "train", "close", "near"]
+        },
+        {
+          "id": "tr_049",
+          "japanese": "またこのホテルに泊まりたいです",
+          "answer": ["I'd", "love", "to", "stay", "here", "again"],
+          "distractors": ["like", "come", "back", "next", "time"]
+        },
+        {
+          "id": "tr_050",
+          "japanese": "素晴らしい滞在でした",
+          "answer": ["I", "had", "a", "wonderful", "stay"],
+          "distractors": ["great", "lovely", "nice", "really", "enjoyed"]
+        }
+      ]
+    },
+    {
+      "id": "interview",
+      "name": "面接・自己紹介",
+      "icon": "🧑‍💼",
+      "questions": [
+        {
+          "id": "iv_001",
+          "japanese": "自己紹介をさせてください",
+          "answer": ["Let", "me", "introduce", "myself"],
+          "distractors": ["please", "tell", "about", "first", "start"]
+        },
+        {
+          "id": "iv_002",
+          "japanese": "本日はお時間をいただきありがとうございます",
+          "answer": ["Thank", "you", "for", "having", "me", "today"],
+          "distractors": ["your", "time", "seeing", "meeting", "this"]
+        },
+        {
+          "id": "iv_003",
+          "japanese": "5年間営業として働いてきました",
+          "answer": ["I've", "worked", "in", "sales", "for", "five", "years"],
+          "distractors": ["been", "as", "a", "about", "over"]
+        },
+        {
+          "id": "iv_004",
+          "japanese": "現在は東京で働いています",
+          "answer": ["I'm", "currently", "working", "in", "Tokyo"],
+          "distractors": ["based", "live", "at", "now", "located"]
+        },
+        {
+          "id": "iv_005",
+          "japanese": "チームをまとめるのが得意です",
+          "answer": ["I'm", "good", "at", "leading", "teams"],
+          "distractors": ["great", "skilled", "managing", "people", "groups"]
+        },
+        {
+          "id": "iv_006",
+          "japanese": "新しい挑戦を求めています",
+          "answer": ["I'm", "looking", "for", "a", "new", "challenge"],
+          "distractors": ["seeking", "want", "fresh", "opportunity", "role"]
+        },
+        {
+          "id": "iv_007",
+          "japanese": "御社に大変興味があります",
+          "answer": ["I'm", "very", "interested", "in", "your", "company"],
+          "distractors": ["really", "keen", "about", "this", "firm"]
+        },
+        {
+          "id": "iv_008",
+          "japanese": "私の強みは問題解決力です",
+          "answer": ["My", "strength", "is", "problem", "solving"],
+          "distractors": ["skill", "best", "greatest", "analysis", "thinking"]
+        },
+        {
+          "id": "iv_009",
+          "japanese": "プレッシャーに強いです",
+          "answer": ["I", "work", "well", "under", "pressure"],
+          "distractors": ["handle", "stay", "calm", "stress", "cope"]
+        },
+        {
+          "id": "iv_010",
+          "japanese": "詳しく説明していただけますか",
+          "answer": ["Could", "you", "tell", "me", "more"],
+          "distractors": ["please", "explain", "elaborate", "share", "about"]
+        },
+        {
+          "id": "iv_011",
+          "japanese": "前職では多くを学びました",
+          "answer": ["I", "learned", "a", "lot", "there"],
+          "distractors": ["gained", "much", "my", "job", "experience"]
+        },
+        {
+          "id": "iv_012",
+          "japanese": "御社の理念に共感します",
+          "answer": ["I", "share", "your", "company", "values"],
+          "distractors": ["agree", "with", "mission", "vision", "support"]
+        },
+        {
+          "id": "iv_013",
+          "japanese": "細部にこだわる性格です",
+          "answer": ["I", "pay", "attention", "to", "detail"],
+          "distractors": ["focus", "care", "about", "details", "precise"]
+        },
+        {
+          "id": "iv_014",
+          "japanese": "御社で成長したいです",
+          "answer": ["I", "want", "to", "grow", "here"],
+          "distractors": ["hope", "develop", "with", "you", "learn"]
+        },
+        {
+          "id": "iv_015",
+          "japanese": "質問してもよろしいですか",
+          "answer": ["May", "I", "ask", "a", "question"],
+          "distractors": ["can", "could", "you", "one", "something"]
+        },
+        {
+          "id": "iv_016",
+          "japanese": "いつから働けますか",
+          "answer": ["When", "can", "you", "start"],
+          "distractors": ["could", "begin", "are", "available", "join"]
+        },
+        {
+          "id": "iv_017",
+          "japanese": "来月から働けます",
+          "answer": ["I", "can", "start", "next", "month"],
+          "distractors": ["available", "begin", "from", "week", "soon"]
+        },
+        {
+          "id": "iv_018",
+          "japanese": "リモート勤務は可能ですか",
+          "answer": ["Is", "remote", "work", "possible"],
+          "distractors": ["available", "an", "option", "from", "home"]
+        },
+        {
+          "id": "iv_019",
+          "japanese": "御社について調べました",
+          "answer": ["I've", "researched", "your", "company"],
+          "distractors": ["read", "about", "looked", "into", "studied"]
+        },
+        {
+          "id": "iv_020",
+          "japanese": "私はチームプレーヤーです",
+          "answer": ["I'm", "a", "team", "player"],
+          "distractors": ["good", "great", "strong", "really", "very"]
+        },
+        {
+          "id": "iv_021",
+          "japanese": "新しい技術を学ぶのが好きです",
+          "answer": ["I", "enjoy", "learning", "new", "skills"],
+          "distractors": ["like", "love", "technologies", "things", "tools"]
+        },
+        {
+          "id": "iv_022",
+          "japanese": "目標は管理職になることです",
+          "answer": ["My", "goal", "is", "to", "become", "a", "manager"],
+          "distractors": ["aim", "want", "lead", "reach", "leader"]
+        },
+        {
+          "id": "iv_023",
+          "japanese": "御社に貢献できると思います",
+          "answer": ["I", "can", "contribute", "to", "your", "team"],
+          "distractors": ["add", "value", "help", "company", "here"]
+        },
+        {
+          "id": "iv_024",
+          "japanese": "前向きな性格です",
+          "answer": ["I", "have", "a", "positive", "attitude"],
+          "distractors": ["am", "outlook", "upbeat", "mindset", "really"]
+        },
+        {
+          "id": "iv_025",
+          "japanese": "失敗から学びます",
+          "answer": ["I", "learn", "from", "my", "mistakes"],
+          "distractors": ["grow", "errors", "failures", "every", "past"]
+        },
+        {
+          "id": "iv_026",
+          "japanese": "ご質問にお答えします",
+          "answer": ["I'm", "happy", "to", "answer", "that"],
+          "distractors": ["glad", "your", "question", "sure", "reply"]
+        },
+        {
+          "id": "iv_027",
+          "japanese": "やりがいのある仕事を探しています",
+          "answer": ["I'm", "looking", "for", "meaningful", "work"],
+          "distractors": ["seeking", "want", "rewarding", "a", "job"]
+        },
+        {
+          "id": "iv_028",
+          "japanese": "5年後はリーダーになりたいです",
+          "answer": ["I", "want", "to", "lead", "a", "team"],
+          "distractors": ["hope", "manage", "become", "leader", "group"]
+        },
+        {
+          "id": "iv_029",
+          "japanese": "柔軟に対応できます",
+          "answer": ["I", "can", "be", "flexible"],
+          "distractors": ["am", "adapt", "easily", "very", "open"]
+        },
+        {
+          "id": "iv_030",
+          "japanese": "締め切りは必ず守ります",
+          "answer": ["I", "always", "meet", "my", "deadlines"],
+          "distractors": ["never", "miss", "keep", "every", "hit"]
+        },
+        {
+          "id": "iv_031",
+          "japanese": "チームの成功を優先します",
+          "answer": ["I", "put", "the", "team", "first"],
+          "distractors": ["our", "success", "others", "before", "myself"]
+        },
+        {
+          "id": "iv_032",
+          "japanese": "コミュニケーションを大切にします",
+          "answer": ["I", "value", "clear", "communication"],
+          "distractors": ["good", "open", "honest", "strong", "really"]
+        },
+        {
+          "id": "iv_033",
+          "japanese": "新しい環境にすぐ慣れます",
+          "answer": ["I", "adapt", "quickly", "to", "change"],
+          "distractors": ["adjust", "new", "fast", "easily", "environments"]
+        },
+        {
+          "id": "iv_034",
+          "japanese": "御社の成長に関わりたいです",
+          "answer": ["I", "want", "to", "be", "part", "of", "this"],
+          "distractors": ["join", "your", "growth", "team", "journey"]
+        },
+        {
+          "id": "iv_035",
+          "japanese": "御社の製品が好きです",
+          "answer": ["I", "love", "your", "products"],
+          "distractors": ["like", "really", "brand", "services", "company"]
+        },
+        {
+          "id": "iv_036",
+          "japanese": "御社の文化に惹かれました",
+          "answer": ["I'm", "drawn", "to", "your", "culture"],
+          "distractors": ["attracted", "by", "company", "values", "really"]
+        },
+        {
+          "id": "iv_037",
+          "japanese": "私は努力家です",
+          "answer": ["I'm", "a", "hard", "worker"],
+          "distractors": ["very", "really", "diligent", "good", "strong"]
+        },
+        {
+          "id": "iv_038",
+          "japanese": "短所は心配性なところです",
+          "answer": ["I", "can", "worry", "too", "much"],
+          "distractors": ["overthink", "tend", "to", "sometimes", "a"]
+        },
+        {
+          "id": "iv_039",
+          "japanese": "改善に取り組んでいます",
+          "answer": ["I'm", "working", "on", "improving"],
+          "distractors": ["trying", "always", "getting", "better", "myself"]
+        },
+        {
+          "id": "iv_040",
+          "japanese": "リーダー経験があります",
+          "answer": ["I", "have", "leadership", "experience"],
+          "distractors": ["led", "teams", "managed", "some", "strong"]
+        },
+        {
+          "id": "iv_041",
+          "japanese": "結果を出すことに集中します",
+          "answer": ["I", "focus", "on", "results"],
+          "distractors": ["deliver", "getting", "outcomes", "driven", "goals"]
+        },
+        {
+          "id": "iv_042",
+          "japanese": "御社で長く働きたいです",
+          "answer": ["I", "want", "to", "stay", "long-term"],
+          "distractors": ["here", "grow", "with", "you", "years"]
+        },
+        {
+          "id": "iv_043",
+          "japanese": "それは良い質問ですね",
+          "answer": ["That's", "a", "good", "question"],
+          "distractors": ["great", "interesting", "fair", "really", "nice"]
+        },
+        {
+          "id": "iv_044",
+          "japanese": "少し考えさせてください",
+          "answer": ["Let", "me", "think", "about", "that"],
+          "distractors": ["give", "a", "moment", "for", "second"]
+        },
+        {
+          "id": "iv_045",
+          "japanese": "御社の期待に応えたいです",
+          "answer": ["I", "want", "to", "meet", "your", "expectations"],
+          "distractors": ["exceed", "hope", "reach", "fulfill", "needs"]
+        },
+        {
+          "id": "iv_046",
+          "japanese": "チームを率いた経験があります",
+          "answer": ["I've", "led", "a", "team", "before"],
+          "distractors": ["managed", "run", "group", "previously", "once"]
+        },
+        {
+          "id": "iv_047",
+          "japanese": "私を選んでいただきありがとうございます",
+          "answer": ["Thank", "you", "for", "choosing", "me"],
+          "distractors": ["selecting", "this", "opportunity", "your", "trust"]
+        },
+        {
+          "id": "iv_048",
+          "japanese": "ご検討よろしくお願いします",
+          "answer": ["Thank", "you", "for", "your", "consideration"],
+          "distractors": ["time", "reviewing", "attention", "my", "application"]
+        },
+        {
+          "id": "iv_049",
+          "japanese": "ご連絡をお待ちしております",
+          "answer": ["I", "look", "forward", "to", "hearing", "back"],
+          "distractors": ["your", "reply", "from", "you", "response"]
+        },
+        {
+          "id": "iv_050",
+          "japanese": "またお会いできるのを楽しみにしています",
+          "answer": ["I", "hope", "to", "see", "you", "again"],
+          "distractors": ["look", "forward", "meeting", "soon", "next"]
+        }
+      ]
+    },
+    {
+      "id": "small_talk",
+      "name": "雑談・スモールトーク",
+      "icon": "☕",
+      "questions": [
+        {
+          "id": "st_001",
+          "japanese": "週末はどうでしたか",
+          "answer": ["How", "was", "your", "weekend"],
+          "distractors": ["good", "the", "did", "go", "nice"]
+        },
+        {
+          "id": "st_002",
+          "japanese": "今日はいい天気ですね",
+          "answer": ["It's", "a", "beautiful", "day"],
+          "distractors": ["nice", "lovely", "great", "such", "really"]
+        },
+        {
+          "id": "st_003",
+          "japanese": "お元気ですか",
+          "answer": ["How", "are", "you", "doing"],
+          "distractors": ["been", "is", "everything", "things", "today"]
+        },
+        {
+          "id": "st_004",
+          "japanese": "最近忙しいですか",
+          "answer": ["Have", "you", "been", "busy", "lately"],
+          "distractors": ["are", "recently", "much", "these", "days"]
+        },
+        {
+          "id": "st_005",
+          "japanese": "コーヒーでもいかがですか",
+          "answer": ["Would", "you", "like", "some", "coffee"],
+          "distractors": ["a", "tea", "drink", "want", "grab"]
+        },
+        {
+          "id": "st_006",
+          "japanese": "ここの食べ物は美味しいですね",
+          "answer": ["The", "food", "here", "is", "great"],
+          "distractors": ["really", "delicious", "good", "amazing", "tasty"]
+        },
+        {
+          "id": "st_007",
+          "japanese": "出身はどちらですか",
+          "answer": ["Where", "are", "you", "from"],
+          "distractors": ["do", "come", "born", "originally", "place"]
+        },
+        {
+          "id": "st_008",
+          "japanese": "東京出身です",
+          "answer": ["I'm", "from", "Tokyo"],
+          "distractors": ["born", "in", "live", "originally", "based"]
+        },
+        {
+          "id": "st_009",
+          "japanese": "趣味は何ですか",
+          "answer": ["What", "are", "your", "hobbies"],
+          "distractors": ["do", "you", "like", "fun", "interests"]
+        },
+        {
+          "id": "st_010",
+          "japanese": "週末は何をしますか",
+          "answer": ["What", "are", "your", "weekend", "plans"],
+          "distractors": ["do", "doing", "this", "any", "for"]
+        },
+        {
+          "id": "st_011",
+          "japanese": "天気が崩れそうですね",
+          "answer": ["It", "looks", "like", "rain"],
+          "distractors": ["might", "going", "to", "cloudy", "stormy"]
+        },
+        {
+          "id": "st_012",
+          "japanese": "良い一日を",
+          "answer": ["Have", "a", "great", "day"],
+          "distractors": ["nice", "good", "wonderful", "lovely", "your"]
+        },
+        {
+          "id": "st_013",
+          "japanese": "また会いましょう",
+          "answer": ["Let's", "catch", "up", "soon"],
+          "distractors": ["meet", "talk", "again", "later", "sometime"]
+        },
+        {
+          "id": "st_014",
+          "japanese": "最近どうですか",
+          "answer": ["How", "have", "you", "been"],
+          "distractors": ["are", "things", "everything", "lately", "doing"]
+        },
+        {
+          "id": "st_015",
+          "japanese": "それは素晴らしいですね",
+          "answer": ["That", "sounds", "great"],
+          "distractors": ["wonderful", "amazing", "nice", "lovely", "awesome"]
+        },
+        {
+          "id": "st_016",
+          "japanese": "お子さんはお元気ですか",
+          "answer": ["How", "are", "your", "kids"],
+          "distractors": ["children", "family", "is", "doing", "everyone"]
+        },
+        {
+          "id": "st_017",
+          "japanese": "休暇はどこかに行きますか",
+          "answer": ["Are", "you", "going", "anywhere", "nice"],
+          "distractors": ["traveling", "somewhere", "on", "vacation", "holiday"]
+        },
+        {
+          "id": "st_018",
+          "japanese": "長い一週間でしたね",
+          "answer": ["It's", "been", "a", "long", "week"],
+          "distractors": ["such", "really", "busy", "tough", "tiring"]
+        },
+        {
+          "id": "st_019",
+          "japanese": "ランチはもう食べましたか",
+          "answer": ["Have", "you", "had", "lunch", "yet"],
+          "distractors": ["eaten", "already", "your", "got", "grabbed"]
+        },
+        {
+          "id": "st_020",
+          "japanese": "そのシャツ素敵ですね",
+          "answer": ["I", "like", "your", "shirt"],
+          "distractors": ["love", "nice", "really", "that", "great"]
+        },
+        {
+          "id": "st_021",
+          "japanese": "最近何か面白いことありましたか",
+          "answer": ["Anything", "fun", "going", "on", "lately"],
+          "distractors": ["new", "interesting", "much", "these", "days"]
+        },
+        {
+          "id": "st_022",
+          "japanese": "渋滞がひどかったです",
+          "answer": ["The", "traffic", "was", "terrible"],
+          "distractors": ["awful", "bad", "heavy", "really", "horrible"]
+        },
+        {
+          "id": "st_023",
+          "japanese": "今日は冷えますね",
+          "answer": ["It's", "quite", "cold", "today"],
+          "distractors": ["really", "chilly", "freezing", "very", "so"]
+        },
+        {
+          "id": "st_024",
+          "japanese": "コーヒーが恋しいです",
+          "answer": ["I", "could", "use", "some", "coffee"],
+          "distractors": ["need", "want", "a", "really", "caffeine"]
+        },
+        {
+          "id": "st_025",
+          "japanese": "それは知りませんでした",
+          "answer": ["I", "didn't", "know", "that"],
+          "distractors": ["had", "no", "idea", "really", "wow"]
+        },
+        {
+          "id": "st_026",
+          "japanese": "本当ですか",
+          "answer": ["Are", "you", "serious"],
+          "distractors": ["really", "kidding", "for", "real", "sure"]
+        },
+        {
+          "id": "st_027",
+          "japanese": "それは大変でしたね",
+          "answer": ["That", "sounds", "rough"],
+          "distractors": ["tough", "hard", "difficult", "awful", "stressful"]
+        },
+        {
+          "id": "st_028",
+          "japanese": "気をつけて帰ってください",
+          "answer": ["Get", "home", "safe"],
+          "distractors": ["take", "care", "drive", "safely", "well"]
+        },
+        {
+          "id": "st_029",
+          "japanese": "おすすめのお店はありますか",
+          "answer": ["Do", "you", "know", "any", "good", "places"],
+          "distractors": ["recommend", "spots", "restaurants", "a", "nice"]
+        },
+        {
+          "id": "st_030",
+          "japanese": "そのうち飲みに行きましょう",
+          "answer": ["Let's", "grab", "a", "drink", "sometime"],
+          "distractors": ["get", "beer", "go", "soon", "together"]
+        },
+        {
+          "id": "st_031",
+          "japanese": "今日は金曜日でよかった",
+          "answer": ["I'm", "glad", "it's", "Friday"],
+          "distractors": ["happy", "finally", "so", "the", "weekend"]
+        },
+        {
+          "id": "st_032",
+          "japanese": "最近寒くなりましたね",
+          "answer": ["It's", "getting", "colder", "lately"],
+          "distractors": ["chillier", "much", "really", "these", "days"]
+        },
+        {
+          "id": "st_033",
+          "japanese": "お休みはどうでしたか",
+          "answer": ["How", "was", "your", "vacation"],
+          "distractors": ["holiday", "trip", "time", "break", "off"]
+        },
+        {
+          "id": "st_034",
+          "japanese": "また月曜日に会いましょう",
+          "answer": ["See", "you", "on", "Monday"],
+          "distractors": ["next", "week", "again", "later", "soon"]
+        },
+        {
+          "id": "st_035",
+          "japanese": "良い週末を",
+          "answer": ["Have", "a", "nice", "weekend"],
+          "distractors": ["great", "good", "lovely", "your", "wonderful"]
+        },
+        {
+          "id": "st_036",
+          "japanese": "そろそろ行かないと",
+          "answer": ["I", "should", "get", "going"],
+          "distractors": ["have", "to", "leave", "be", "off"]
+        },
+        {
+          "id": "st_037",
+          "japanese": "お会いできてよかったです",
+          "answer": ["It", "was", "nice", "seeing", "you"],
+          "distractors": ["great", "good", "meeting", "talking", "to"]
+        },
+        {
+          "id": "st_038",
+          "japanese": "最近どんな本を読みましたか",
+          "answer": ["Read", "anything", "good", "lately"],
+          "distractors": ["any", "books", "interesting", "much", "recently"]
+        },
+        {
+          "id": "st_039",
+          "japanese": "この辺りは初めてですか",
+          "answer": ["Are", "you", "new", "here"],
+          "distractors": ["first", "around", "to", "time", "this"]
+        },
+        {
+          "id": "st_040",
+          "japanese": "お腹が空きましたね",
+          "answer": ["I'm", "getting", "hungry"],
+          "distractors": ["so", "really", "starving", "a", "bit"]
+        },
+        {
+          "id": "st_041",
+          "japanese": "今日は早く終わりそうです",
+          "answer": ["I", "might", "finish", "early", "today"],
+          "distractors": ["could", "leave", "get", "off", "soon"]
+        },
+        {
+          "id": "st_042",
+          "japanese": "それはいい考えですね",
+          "answer": ["That's", "a", "nice", "idea"],
+          "distractors": ["great", "good", "cool", "lovely", "fun"]
+        },
+        {
+          "id": "st_043",
+          "japanese": "週末は雨みたいですね",
+          "answer": ["It", "might", "rain", "this", "weekend"],
+          "distractors": ["could", "looks", "like", "over", "the"]
+        },
+        {
+          "id": "st_044",
+          "japanese": "今日は調子がいいです",
+          "answer": ["I'm", "feeling", "good", "today"],
+          "distractors": ["great", "fine", "well", "really", "pretty"]
+        },
+        {
+          "id": "st_045",
+          "japanese": "何か飲みますか",
+          "answer": ["Can", "I", "get", "you", "a", "drink"],
+          "distractors": ["would", "like", "something", "want", "coffee"]
+        },
+        {
+          "id": "st_046",
+          "japanese": "久しぶりですね",
+          "answer": ["It's", "been", "too", "long"],
+          "distractors": ["a", "while", "ages", "such", "since"]
+        },
+        {
+          "id": "st_047",
+          "japanese": "元気そうで何よりです",
+          "answer": ["You", "look", "great"],
+          "distractors": ["well", "good", "happy", "really", "wonderful"]
+        },
+        {
+          "id": "st_048",
+          "japanese": "そろそろ春ですね",
+          "answer": ["Spring", "is", "almost", "here"],
+          "distractors": ["nearly", "coming", "around", "the", "soon"]
+        },
+        {
+          "id": "st_049",
+          "japanese": "今日はありがとうございました",
+          "answer": ["Thanks", "for", "today"],
+          "distractors": ["your", "time", "everything", "the", "chat"]
+        },
+        {
+          "id": "st_050",
+          "japanese": "また連絡しますね",
+          "answer": ["I'll", "be", "in", "touch"],
+          "distractors": ["stay", "keep", "contact", "reach", "you"]
+        }
+      ]
+    },
+    {
+      "id": "trouble",
+      "name": "トラブル対応・謝罪",
+      "icon": "🛠️",
+      "questions": [
+        {
+          "id": "tb_001",
+          "japanese": "ご不便をおかけして申し訳ありません",
+          "answer": ["Sorry", "for", "the", "inconvenience"],
+          "distractors": ["any", "trouble", "caused", "this", "apologies"]
+        },
+        {
+          "id": "tb_002",
+          "japanese": "問題を調査しています",
+          "answer": ["We're", "looking", "into", "the", "issue"],
+          "distractors": ["investigating", "problem", "checking", "matter", "this"]
+        },
+        {
+          "id": "tb_003",
+          "japanese": "すぐに対応します",
+          "answer": ["I'll", "take", "care", "of", "it"],
+          "distractors": ["handle", "fix", "right", "away", "this"]
+        },
+        {
+          "id": "tb_004",
+          "japanese": "原因を特定しました",
+          "answer": ["We've", "found", "the", "cause"],
+          "distractors": ["identified", "root", "source", "problem", "issue"]
+        },
+        {
+          "id": "tb_005",
+          "japanese": "ご迷惑をおかけしました",
+          "answer": ["I", "apologize", "for", "the", "trouble"],
+          "distractors": ["sorry", "any", "inconvenience", "caused", "this"]
+        },
+        {
+          "id": "tb_006",
+          "japanese": "現在復旧作業中です",
+          "answer": ["We're", "working", "on", "a", "fix"],
+          "distractors": ["fixing", "it", "solution", "repair", "now"]
+        },
+        {
+          "id": "tb_007",
+          "japanese": "間もなく復旧します",
+          "answer": ["It", "should", "be", "back", "soon"],
+          "distractors": ["up", "running", "fixed", "shortly", "working"]
+        },
+        {
+          "id": "tb_008",
+          "japanese": "状況を確認します",
+          "answer": ["Let", "me", "check", "the", "status"],
+          "distractors": ["look", "into", "situation", "verify", "review"]
+        },
+        {
+          "id": "tb_009",
+          "japanese": "ご報告が遅れて申し訳ありません",
+          "answer": ["Sorry", "for", "the", "late", "update"],
+          "distractors": ["delayed", "slow", "my", "report", "apologies"]
+        },
+        {
+          "id": "tb_010",
+          "japanese": "再発防止に努めます",
+          "answer": ["We'll", "make", "sure", "it", "doesn't", "happen", "again"],
+          "distractors": ["prevent", "this", "from", "recurring", "won't"]
+        },
+        {
+          "id": "tb_011",
+          "japanese": "ご指摘ありがとうございます",
+          "answer": ["Thank", "you", "for", "pointing", "that", "out"],
+          "distractors": ["flagging", "letting", "know", "catching", "noticing"]
+        },
+        {
+          "id": "tb_012",
+          "japanese": "私のミスです",
+          "answer": ["That", "was", "my", "mistake"],
+          "distractors": ["fault", "error", "really", "sorry", "apologize"]
+        },
+        {
+          "id": "tb_013",
+          "japanese": "すぐに修正します",
+          "answer": ["I'll", "fix", "it", "right", "away"],
+          "distractors": ["correct", "now", "immediately", "this", "quickly"]
+        },
+        {
+          "id": "tb_014",
+          "japanese": "ご確認をお願いできますか",
+          "answer": ["Could", "you", "double-check", "this"],
+          "distractors": ["please", "verify", "confirm", "review", "look"]
+        },
+        {
+          "id": "tb_015",
+          "japanese": "問題が解決しました",
+          "answer": ["The", "issue", "is", "resolved"],
+          "distractors": ["problem", "fixed", "solved", "gone", "now"]
+        },
+        {
+          "id": "tb_016",
+          "japanese": "原因を調査中です",
+          "answer": ["We're", "still", "investigating", "the", "cause"],
+          "distractors": ["looking", "into", "root", "problem", "checking"]
+        },
+        {
+          "id": "tb_017",
+          "japanese": "代替案をご提案します",
+          "answer": ["Let", "me", "suggest", "an", "alternative"],
+          "distractors": ["offer", "propose", "another", "option", "solution"]
+        },
+        {
+          "id": "tb_018",
+          "japanese": "ご理解をお願いします",
+          "answer": ["Thank", "you", "for", "understanding"],
+          "distractors": ["your", "patience", "being", "so", "kind"]
+        },
+        {
+          "id": "tb_019",
+          "japanese": "今後気をつけます",
+          "answer": ["I'll", "be", "more", "careful"],
+          "distractors": ["pay", "attention", "next", "time", "cautious"]
+        },
+        {
+          "id": "tb_020",
+          "japanese": "影響範囲を確認しています",
+          "answer": ["We're", "checking", "the", "impact"],
+          "distractors": ["assessing", "scope", "affected", "area", "reviewing"]
+        },
+        {
+          "id": "tb_021",
+          "japanese": "重ねてお詫び申し上げます",
+          "answer": ["I", "sincerely", "apologize", "again"],
+          "distractors": ["deeply", "truly", "really", "sorry", "once"]
+        },
+        {
+          "id": "tb_022",
+          "japanese": "対応に時間がかかっています",
+          "answer": ["This", "is", "taking", "longer", "than", "expected"],
+          "distractors": ["more", "time", "a", "while", "bit"]
+        },
+        {
+          "id": "tb_023",
+          "japanese": "進捗を共有します",
+          "answer": ["Let", "me", "share", "an", "update"],
+          "distractors": ["give", "you", "status", "the", "progress"]
+        },
+        {
+          "id": "tb_024",
+          "japanese": "ご連絡が行き届かず失礼しました",
+          "answer": ["Sorry", "for", "the", "lack", "of", "communication"],
+          "distractors": ["poor", "my", "updates", "contact", "apologies"]
+        },
+        {
+          "id": "tb_025",
+          "japanese": "至急対応いたします",
+          "answer": ["We'll", "handle", "this", "urgently"],
+          "distractors": ["right", "away", "fix", "immediately", "now"]
+        },
+        {
+          "id": "tb_026",
+          "japanese": "サーバーがダウンしています",
+          "answer": ["The", "server", "is", "down"],
+          "distractors": ["system", "offline", "crashed", "not", "working"]
+        },
+        {
+          "id": "tb_027",
+          "japanese": "システムを再起動します",
+          "answer": ["I'll", "restart", "the", "system"],
+          "distractors": ["reboot", "reset", "server", "now", "it"]
+        },
+        {
+          "id": "tb_028",
+          "japanese": "バックアップから復元します",
+          "answer": ["We'll", "restore", "from", "backup"],
+          "distractors": ["recover", "the", "data", "a", "files"]
+        },
+        {
+          "id": "tb_029",
+          "japanese": "データは失われていません",
+          "answer": ["No", "data", "was", "lost"],
+          "distractors": ["your", "is", "safe", "gone", "missing"]
+        },
+        {
+          "id": "tb_030",
+          "japanese": "ご心配をおかけしました",
+          "answer": ["Sorry", "to", "worry", "you"],
+          "distractors": ["for", "the", "concern", "any", "trouble"]
+        },
+        {
+          "id": "tb_031",
+          "japanese": "今しばらくお待ちください",
+          "answer": ["Please", "bear", "with", "us"],
+          "distractors": ["wait", "a", "moment", "longer", "patient"]
+        },
+        {
+          "id": "tb_032",
+          "japanese": "詳細を後ほど報告します",
+          "answer": ["I'll", "report", "the", "details", "later"],
+          "distractors": ["share", "more", "soon", "afterward", "follow"]
+        },
+        {
+          "id": "tb_033",
+          "japanese": "応急処置を行いました",
+          "answer": ["We've", "applied", "a", "quick", "fix"],
+          "distractors": ["temporary", "made", "patch", "short", "term"]
+        },
+        {
+          "id": "tb_034",
+          "japanese": "恒久対策を検討します",
+          "answer": ["We'll", "work", "on", "a", "permanent", "fix"],
+          "distractors": ["lasting", "long", "term", "solution", "real"]
+        },
+        {
+          "id": "tb_035",
+          "japanese": "ご請求に誤りがありました",
+          "answer": ["There", "was", "a", "billing", "error"],
+          "distractors": ["mistake", "invoice", "charge", "wrong", "issue"]
+        },
+        {
+          "id": "tb_036",
+          "japanese": "返金いたします",
+          "answer": ["We'll", "issue", "a", "refund"],
+          "distractors": ["give", "you", "money", "back", "process"]
+        },
+        {
+          "id": "tb_037",
+          "japanese": "ご注文を確認できません",
+          "answer": ["I", "can't", "find", "your", "order"],
+          "distractors": ["locate", "see", "the", "missing", "number"]
+        },
+        {
+          "id": "tb_038",
+          "japanese": "再送いたします",
+          "answer": ["I'll", "resend", "it", "now"],
+          "distractors": ["send", "again", "email", "the", "file"]
+        },
+        {
+          "id": "tb_039",
+          "japanese": "もう一度お試しください",
+          "answer": ["Please", "try", "again"],
+          "distractors": ["once", "more", "retry", "later", "now"]
+        },
+        {
+          "id": "tb_040",
+          "japanese": "キャッシュを削除してください",
+          "answer": ["Please", "clear", "your", "cache"],
+          "distractors": ["delete", "empty", "browser", "the", "cookies"]
+        },
+        {
+          "id": "tb_041",
+          "japanese": "現在対応可能なスタッフがいません",
+          "answer": ["No", "one", "is", "available", "right", "now"],
+          "distractors": ["nobody", "free", "staff", "at", "moment"]
+        },
+        {
+          "id": "tb_042",
+          "japanese": "折り返しお電話します",
+          "answer": ["I'll", "call", "you", "back"],
+          "distractors": ["phone", "ring", "return", "later", "soon"]
+        },
+        {
+          "id": "tb_043",
+          "japanese": "ご迷惑をおかけしないようにします",
+          "answer": ["We'll", "try", "not", "to", "disturb", "you"],
+          "distractors": ["avoid", "bothering", "trouble", "again", "minimize"]
+        },
+        {
+          "id": "tb_044",
+          "japanese": "問題を引き継ぎます",
+          "answer": ["I'll", "take", "over", "from", "here"],
+          "distractors": ["handle", "this", "now", "onward", "continue"]
+        },
+        {
+          "id": "tb_045",
+          "japanese": "担当者におつなぎします",
+          "answer": ["Let", "me", "transfer", "you"],
+          "distractors": ["connect", "pass", "over", "along", "forward"]
+        },
+        {
+          "id": "tb_046",
+          "japanese": "状況が改善しました",
+          "answer": ["Things", "have", "improved"],
+          "distractors": ["gotten", "better", "the", "situation", "now"]
+        },
+        {
+          "id": "tb_047",
+          "japanese": "ご協力に感謝します",
+          "answer": ["Thank", "you", "for", "your", "patience"],
+          "distractors": ["cooperation", "understanding", "help", "being", "kind"]
+        },
+        {
+          "id": "tb_048",
+          "japanese": "問題なく動作しています",
+          "answer": ["Everything", "is", "working", "now"],
+          "distractors": ["fine", "running", "smoothly", "okay", "again"]
+        },
+        {
+          "id": "tb_049",
+          "japanese": "今後ともよろしくお願いします",
+          "answer": ["Thank", "you", "for", "your", "continued", "trust"],
+          "distractors": ["support", "patience", "understanding", "ongoing", "business"]
+        },
+        {
+          "id": "tb_050",
+          "japanese": "改めてお詫び申し上げます",
+          "answer": ["Again", "I'm", "truly", "sorry"],
+          "distractors": ["really", "very", "deeply", "apologize", "so"]
+        }
+      ]
+    },
+    {
+      "id": "report_1on1",
+      "name": "進捗報告・1on1",
+      "icon": "📈",
+      "questions": [
+        {
+          "id": "rp_001",
+          "japanese": "進捗をご報告します",
+          "answer": ["Let", "me", "give", "you", "an", "update"],
+          "distractors": ["share", "status", "quick", "the", "report"]
+        },
+        {
+          "id": "rp_002",
+          "japanese": "順調に進んでいます",
+          "answer": ["Things", "are", "going", "well"],
+          "distractors": ["smoothly", "on", "track", "fine", "great"]
+        },
+        {
+          "id": "rp_003",
+          "japanese": "予定どおりです",
+          "answer": ["We're", "on", "schedule"],
+          "distractors": ["track", "time", "plan", "right", "target"]
+        },
+        {
+          "id": "rp_004",
+          "japanese": "少し遅れています",
+          "answer": ["We're", "a", "little", "behind"],
+          "distractors": ["bit", "slightly", "running", "late", "schedule"]
+        },
+        {
+          "id": "rp_005",
+          "japanese": "タスクは完了しました",
+          "answer": ["The", "task", "is", "done"],
+          "distractors": ["complete", "finished", "work", "now", "ready"]
+        },
+        {
+          "id": "rp_006",
+          "japanese": "残りはあと少しです",
+          "answer": ["We're", "almost", "there"],
+          "distractors": ["nearly", "done", "close", "finished", "complete"]
+        },
+        {
+          "id": "rp_007",
+          "japanese": "問題が発生しています",
+          "answer": ["We've", "hit", "a", "problem"],
+          "distractors": ["run", "into", "issue", "snag", "blocker"]
+        },
+        {
+          "id": "rp_008",
+          "japanese": "支援が必要です",
+          "answer": ["I", "could", "use", "some", "help"],
+          "distractors": ["need", "want", "a", "hand", "support"]
+        },
+        {
+          "id": "rp_009",
+          "japanese": "来週には終わる見込みです",
+          "answer": ["It", "should", "be", "done", "next", "week"],
+          "distractors": ["finished", "by", "ready", "this", "soon"]
+        },
+        {
+          "id": "rp_010",
+          "japanese": "優先順位を確認したいです",
+          "answer": ["I'd", "like", "to", "check", "priorities"],
+          "distractors": ["confirm", "review", "the", "our", "clarify"]
+        },
+        {
+          "id": "rp_011",
+          "japanese": "何か気になることはありますか",
+          "answer": ["Is", "anything", "on", "your", "mind"],
+          "distractors": ["there", "bothering", "you", "concerns", "worries"]
+        },
+        {
+          "id": "rp_012",
+          "japanese": "率直なご意見をお聞かせください",
+          "answer": ["Please", "be", "honest", "with", "me"],
+          "distractors": ["frank", "open", "tell", "your", "feedback"]
+        },
+        {
+          "id": "rp_013",
+          "japanese": "良い仕事をしていますね",
+          "answer": ["You're", "doing", "great", "work"],
+          "distractors": ["good", "a", "job", "really", "well"]
+        },
+        {
+          "id": "rp_014",
+          "japanese": "改善点を共有します",
+          "answer": ["Let", "me", "share", "some", "feedback"],
+          "distractors": ["give", "you", "points", "areas", "thoughts"]
+        },
+        {
+          "id": "rp_015",
+          "japanese": "今週の目標は何ですか",
+          "answer": ["What", "are", "your", "goals", "this", "week"],
+          "distractors": ["plans", "targets", "for", "the", "priorities"]
+        },
+        {
+          "id": "rp_016",
+          "japanese": "サポートが必要なら言ってください",
+          "answer": ["Let", "me", "know", "if", "you", "need", "help"],
+          "distractors": ["tell", "want", "support", "anything", "just"]
+        },
+        {
+          "id": "rp_017",
+          "japanese": "順調そうで何よりです",
+          "answer": ["Glad", "to", "hear", "it's", "going", "well"],
+          "distractors": ["happy", "that", "smoothly", "good", "things"]
+        },
+        {
+          "id": "rp_018",
+          "japanese": "次のステップを話しましょう",
+          "answer": ["Let's", "talk", "about", "next", "steps"],
+          "distractors": ["discuss", "the", "our", "plan", "actions"]
+        },
+        {
+          "id": "rp_019",
+          "japanese": "期限に間に合いそうですか",
+          "answer": ["Will", "we", "make", "the", "deadline"],
+          "distractors": ["hit", "meet", "can", "due", "date"]
+        },
+        {
+          "id": "rp_020",
+          "japanese": "リソースが足りません",
+          "answer": ["We're", "short", "on", "resources"],
+          "distractors": ["low", "lacking", "need", "more", "staff"]
+        },
+        {
+          "id": "rp_021",
+          "japanese": "そこは私が引き継ぎます",
+          "answer": ["I'll", "take", "that", "over"],
+          "distractors": ["handle", "on", "from", "here", "care"]
+        },
+        {
+          "id": "rp_022",
+          "japanese": "今のところ問題ありません",
+          "answer": ["No", "issues", "so", "far"],
+          "distractors": ["problems", "everything", "fine", "good", "yet"]
+        },
+        {
+          "id": "rp_023",
+          "japanese": "もう少し時間が必要です",
+          "answer": ["I", "need", "a", "bit", "more", "time"],
+          "distractors": ["little", "some", "extra", "longer", "please"]
+        },
+        {
+          "id": "rp_024",
+          "japanese": "今週の成果を共有します",
+          "answer": ["Let", "me", "share", "this", "week's", "progress"],
+          "distractors": ["our", "results", "wins", "work", "update"]
+        },
+        {
+          "id": "rp_025",
+          "japanese": "課題を一緒に解決しましょう",
+          "answer": ["Let's", "solve", "this", "together"],
+          "distractors": ["work", "through", "fix", "it", "problem"]
+        },
+        {
+          "id": "rp_026",
+          "japanese": "何か困っていることはありますか",
+          "answer": ["Are", "you", "stuck", "on", "anything"],
+          "distractors": ["blocked", "struggling", "having", "trouble", "issues"]
+        },
+        {
+          "id": "rp_027",
+          "japanese": "フィードバックをありがとうございます",
+          "answer": ["Thank", "you", "for", "the", "feedback"],
+          "distractors": ["your", "input", "thoughts", "advice", "comments"]
+        },
+        {
+          "id": "rp_028",
+          "japanese": "目標を達成しました",
+          "answer": ["We", "hit", "our", "target"],
+          "distractors": ["reached", "met", "goal", "made", "achieved"]
+        },
+        {
+          "id": "rp_029",
+          "japanese": "計画を見直す必要があります",
+          "answer": ["We", "need", "to", "revise", "the", "plan"],
+          "distractors": ["rethink", "change", "update", "our", "adjust"]
+        },
+        {
+          "id": "rp_030",
+          "japanese": "進め方を変えましょう",
+          "answer": ["Let's", "try", "a", "different", "approach"],
+          "distractors": ["new", "change", "another", "way", "method"]
+        },
+        {
+          "id": "rp_031",
+          "japanese": "ここまでの振り返りをしましょう",
+          "answer": ["Let's", "review", "our", "progress"],
+          "distractors": ["look", "back", "at", "recap", "what"]
+        },
+        {
+          "id": "rp_032",
+          "japanese": "次回までに準備します",
+          "answer": ["I'll", "have", "it", "ready", "by", "then"],
+          "distractors": ["prepare", "done", "next", "time", "before"]
+        },
+        {
+          "id": "rp_033",
+          "japanese": "もっともなご指摘です",
+          "answer": ["That's", "a", "fair", "point"],
+          "distractors": ["good", "great", "valid", "question", "nice"]
+        },
+        {
+          "id": "rp_034",
+          "japanese": "懸念点を共有します",
+          "answer": ["Let", "me", "raise", "a", "concern"],
+          "distractors": ["share", "point", "flag", "my", "worry"]
+        },
+        {
+          "id": "rp_035",
+          "japanese": "計画どおり進めましょう",
+          "answer": ["Let's", "stick", "to", "the", "plan"],
+          "distractors": ["follow", "keep", "our", "go", "with"]
+        },
+        {
+          "id": "rp_036",
+          "japanese": "成長を感じています",
+          "answer": ["I", "feel", "I'm", "growing"],
+          "distractors": ["like", "am", "improving", "progressing", "developing"]
+        },
+        {
+          "id": "rp_037",
+          "japanese": "もっと裁量がほしいです",
+          "answer": ["I'd", "like", "more", "ownership"],
+          "distractors": ["want", "responsibility", "freedom", "control", "autonomy"]
+        },
+        {
+          "id": "rp_038",
+          "japanese": "業務量が多すぎます",
+          "answer": ["My", "workload", "is", "too", "heavy"],
+          "distractors": ["much", "big", "plate", "full", "overloaded"]
+        },
+        {
+          "id": "rp_039",
+          "japanese": "うまくいっていません",
+          "answer": ["It's", "not", "going", "well"],
+          "distractors": ["working", "smoothly", "great", "badly", "poorly"]
+        },
+        {
+          "id": "rp_040",
+          "japanese": "助けてくれてありがとう",
+          "answer": ["Thanks", "for", "your", "help"],
+          "distractors": ["the", "support", "helping", "being", "there"]
+        },
+        {
+          "id": "rp_041",
+          "japanese": "今週は集中できました",
+          "answer": ["I", "stayed", "focused", "this", "week"],
+          "distractors": ["was", "really", "on", "track", "productive"]
+        },
+        {
+          "id": "rp_042",
+          "japanese": "来週の計画を立てましょう",
+          "answer": ["Let's", "plan", "for", "next", "week"],
+          "distractors": ["the", "ahead", "map", "out", "our"]
+        },
+        {
+          "id": "rp_043",
+          "japanese": "進め方は合っていますか",
+          "answer": ["Am", "I", "on", "the", "right", "track"],
+          "distractors": ["doing", "this", "correctly", "approach", "way"]
+        },
+        {
+          "id": "rp_044",
+          "japanese": "順調に近づいています",
+          "answer": ["We're", "getting", "close"],
+          "distractors": ["nearly", "there", "almost", "done", "near"]
+        },
+        {
+          "id": "rp_045",
+          "japanese": "ブロッカーを取り除きましょう",
+          "answer": ["Let's", "clear", "the", "blockers"],
+          "distractors": ["remove", "fix", "obstacles", "issues", "these"]
+        },
+        {
+          "id": "rp_046",
+          "japanese": "進捗に満足しています",
+          "answer": ["I'm", "happy", "with", "our", "progress"],
+          "distractors": ["pleased", "glad", "the", "results", "work"]
+        },
+        {
+          "id": "rp_047",
+          "japanese": "改善が必要な点があります",
+          "answer": ["There's", "room", "for", "improvement"],
+          "distractors": ["some", "areas", "to", "improve", "better"]
+        },
+        {
+          "id": "rp_048",
+          "japanese": "次の一手を決めましょう",
+          "answer": ["Let's", "decide", "the", "next", "move"],
+          "distractors": ["our", "step", "choose", "plan", "action"]
+        },
+        {
+          "id": "rp_049",
+          "japanese": "今日はここまでにしましょう",
+          "answer": ["Let's", "wrap", "up", "here"],
+          "distractors": ["finish", "stop", "call", "it", "end"]
+        },
+        {
+          "id": "rp_050",
+          "japanese": "また来週話しましょう",
+          "answer": ["Let's", "talk", "again", "next", "week"],
+          "distractors": ["catch", "up", "meet", "soon", "then"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phrase Master — ビジネス英語フレーズ学習</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home-page">
+
+  <header class="home-header">
+    <h1>📖 Phrase Master</h1>
+    <p>ビジネス英語フレーズ学習</p>
+  </header>
+
+  <main class="home-main">
+
+    <!-- ── Progress section ── -->
+    <section class="card progress-card">
+      <h2>学習進捗</h2>
+      <div class="chart-wrap">
+        <canvas id="progress-chart"></canvas>
+      </div>
+      <div class="stats-row">
+        <div class="stat-item unanswered">
+          <span id="stat-unanswered" class="stat-num">0</span>
+          <span class="stat-label">未回答</span>
+        </div>
+        <div class="stat-item correct">
+          <span id="stat-correct" class="stat-num">0</span>
+          <span class="stat-label">正解</span>
+        </div>
+        <div class="stat-item incorrect">
+          <span id="stat-incorrect" class="stat-num">0</span>
+          <span class="stat-label">不正解</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Theme selection ── -->
+    <section>
+      <h2 class="section-title">テーマを選んで学習</h2>
+      <div id="theme-cards" class="theme-list">
+        <!-- Populated by home.js -->
+      </div>
+    </section>
+
+    <!-- ── Review mode (shown only when flagged questions exist) ── -->
+    <section id="review-section" style="display:none">
+      <h2 class="section-title">復習モード</h2>
+      <a href="quiz.html?mode=review" class="theme-card review-card">
+        <div class="theme-icon">🚩</div>
+        <div class="theme-info">
+          <div class="theme-name">フラグ済みの問題を復習</div>
+          <div class="theme-progress"><span id="flagged-count">0</span> 問のフラグ</div>
+        </div>
+        <div class="theme-arrow">›</div>
+      </a>
+    </section>
+
+    <!-- ── Reset ── -->
+    <section class="reset-section">
+      <button id="btn-reset" class="btn btn-ghost btn-sm">進捗をリセット</button>
+    </section>
+
+  </main>
+
+  <!-- Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

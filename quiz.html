@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phrase Master — クイズ</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="quiz-page">
+
+  <!-- ── Header ── -->
+  <header class="quiz-header">
+    <button id="btn-back" class="btn-icon" title="ホームへ戻る" aria-label="ホームへ戻る">←</button>
+    <div class="quiz-title">
+      <span id="theme-name">読み込み中…</span>
+    </div>
+    <button id="btn-flag" class="btn-icon btn-flag" title="フラグを付ける" aria-label="フラグを付ける">🚩</button>
+  </header>
+
+  <!-- ── Progress bar ── -->
+  <div class="progress-wrap">
+    <div class="progress-bar-outer">
+      <div id="progress-bar" class="progress-bar-inner" style="width:0%"></div>
+    </div>
+    <span id="counter" class="counter-text">0 / 0</span>
+  </div>
+
+  <!-- ── Quiz content ── -->
+  <main id="quiz" class="quiz-main">
+
+    <!-- Japanese prompt -->
+    <div class="card japanese-card">
+      <div class="japanese-label">日本語</div>
+      <div id="japanese" class="japanese-text">…</div>
+    </div>
+
+    <!-- Answer slots -->
+    <div class="section-label">英語の答えを正しい順に並べてください</div>
+    <div id="slots" class="slots-container" role="group" aria-label="回答スロット"></div>
+
+    <!-- Inline feedback -->
+    <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+
+    <!-- Word bank -->
+    <div class="section-label">単語を選んでください（タップで配置・配置済みをタップで戻す）</div>
+    <div id="word-bank" class="word-bank" role="group" aria-label="単語バンク"></div>
+
+    <!-- Action buttons -->
+    <div class="quiz-actions">
+      <button id="btn-skip" class="btn btn-secondary" style="display:none">スキップ →</button>
+      <button id="btn-next" class="btn btn-primary" style="display:none">次へ →</button>
+    </div>
+
+  </main>
+
+  <!-- ── No questions message ── -->
+  <div id="no-questions" class="no-questions" style="display:none">
+    <div class="card" style="max-width:360px;width:100%;text-align:center;padding:32px 24px">
+      <div class="no-q-icon">📚</div>
+      <p style="color:var(--text-sub);margin-bottom:20px;line-height:1.7">
+        復習する問題がありません。<br>
+        まず問題を解いてフラグを付けてください。
+      </p>
+      <a href="index.html" class="btn btn-primary">ホームへ戻る</a>
+    </div>
+  </div>
+
+  <!-- ── Results overlay ── -->
+  <div id="results" class="results" style="display:none" role="dialog" aria-modal="true" aria-label="結果">
+    <div class="results-card">
+      <div class="results-icon">🎓</div>
+      <h2>セッション完了！</h2>
+      <div class="results-stats">
+        <div class="result-stat">
+          <span id="result-total" class="stat-num">0</span>
+          <span class="stat-label">問</span>
+        </div>
+        <div class="result-stat success">
+          <span id="result-correct" class="stat-num">0</span>
+          <span class="stat-label">正解</span>
+        </div>
+        <div class="result-stat danger">
+          <span id="result-wrong" class="stat-num">0</span>
+          <span class="stat-label">不正解</span>
+        </div>
+      </div>
+      <div class="results-actions">
+        <button id="btn-home" class="btn btn-primary">ホームへ戻る</button>
+        <button id="btn-review-flagged" class="btn btn-secondary" style="display:none">🚩 フラグ済みを復習</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/tts.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
