@@ -634,9 +634,9 @@
         },
         {
           "id": "em_003",
-          "japanese": "件名の件についてご連絡します",
-          "answer": ["I'm", "writing", "about", "the", "subject", "line"],
-          "distractors": ["regarding", "concerning", "this", "matter", "topic"]
+          "japanese": "本件についてご連絡しています",
+          "answer": ["I'm", "writing", "about", "this", "matter"],
+          "distractors": ["regarding", "concerning", "following", "on", "topic"]
         },
         {
           "id": "em_004",
@@ -851,8 +851,8 @@
         {
           "id": "em_039",
           "japanese": "宛先を間違えました",
-          "answer": ["I", "had", "the", "wrong", "recipient"],
-          "distractors": ["sent", "address", "person", "email", "mistake"]
+          "answer": ["I", "sent", "that", "to", "the", "wrong", "person"],
+          "distractors": ["addressed", "email", "mistakenly", "accidentally", "recipient"]
         },
         {
           "id": "em_040",
@@ -899,8 +899,8 @@
         {
           "id": "em_047",
           "japanese": "本日中にお送りします",
-          "answer": ["I'll", "send", "it", "by", "today"],
-          "distractors": ["share", "end", "of", "day", "soon"]
+          "answer": ["I'll", "send", "it", "by", "end", "of", "day"],
+          "distractors": ["share", "tonight", "soon", "before", "you"]
         },
         {
           "id": "em_048",
@@ -966,8 +966,8 @@
         {
           "id": "pr_007",
           "japanese": "ご覧のとおり数字は伸びています",
-          "answer": ["As", "you", "can", "see", "numbers", "are", "rising"],
-          "distractors": ["the", "growing", "up", "figures", "increasing"]
+          "answer": ["As", "you", "can", "see", "the", "numbers", "are", "rising"],
+          "distractors": ["growing", "up", "figures", "increasing", "data"]
         },
         {
           "id": "pr_008",
@@ -1056,8 +1056,8 @@
         {
           "id": "pr_022",
           "japanese": "時間の都合で先に進みます",
-          "answer": ["Let's", "move", "on", "for", "time"],
-          "distractors": ["due", "to", "ahead", "sake", "quickly"]
+          "answer": ["Let's", "move", "on", "to", "save", "time"],
+          "distractors": ["due", "ahead", "sake", "quickly", "now"]
         },
         {
           "id": "pr_023",
@@ -1098,8 +1098,8 @@
         {
           "id": "pr_029",
           "japanese": "後ほど個別にお答えします",
-          "answer": ["I'll", "answer", "that", "later", "privately"],
-          "distractors": ["respond", "afterward", "one", "separately", "offline"]
+          "answer": ["I'll", "take", "that", "offline"],
+          "distractors": ["answer", "respond", "separately", "later", "privately"]
         },
         {
           "id": "pr_030",
@@ -1110,8 +1110,8 @@
         {
           "id": "pr_031",
           "japanese": "全体像をお見せします",
-          "answer": ["Let", "me", "show", "the", "big", "picture"],
-          "distractors": ["you", "whole", "overview", "full", "view"]
+          "answer": ["Let", "me", "show", "you", "the", "big", "picture"],
+          "distractors": ["whole", "overview", "full", "view", "entire"]
         },
         {
           "id": "pr_032",
@@ -1742,8 +1742,8 @@
         {
           "id": "iv_034",
           "japanese": "御社の成長に関わりたいです",
-          "answer": ["I", "want", "to", "be", "part", "of", "this"],
-          "distractors": ["join", "your", "growth", "team", "journey"]
+          "answer": ["I", "want", "to", "be", "part", "of", "your", "growth"],
+          "distractors": ["join", "this", "success", "team", "journey"]
         },
         {
           "id": "iv_035",
