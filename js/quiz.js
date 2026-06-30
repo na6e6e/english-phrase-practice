@@ -266,7 +266,7 @@ function checkAnswer() {
     el.btnNext.style.display = 'inline-flex';
     el.btnReplay.style.display = 'inline-flex';
     el.btnSkip.style.display = 'none';
-    el.btnGoogle.href = 'https://www.google.com/search?q=' + encodeURIComponent(q.answer.join(' '));
+    el.btnGoogle.href = 'https://www.google.com/search?q=' + encodeURIComponent(q.answer.join(' ')) + ' 意味';
     el.btnGoogle.style.display = 'inline-flex';
   } else {
     quizState = 'wrong';
