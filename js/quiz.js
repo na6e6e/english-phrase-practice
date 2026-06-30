@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   el.btnNext      = document.getElementById('btn-next');
   el.btnSkip      = document.getElementById('btn-skip');
   el.btnReplay    = document.getElementById('btn-replay');
+  el.btnGoogle    = document.getElementById('btn-google');
   el.quiz         = document.getElementById('quiz');
   el.noQuestions  = document.getElementById('no-questions');
   el.results      = document.getElementById('results');
@@ -265,6 +266,8 @@ function checkAnswer() {
     el.btnNext.style.display = 'inline-flex';
     el.btnReplay.style.display = 'inline-flex';
     el.btnSkip.style.display = 'none';
+    el.btnGoogle.href = 'https://www.google.com/search?q=' + encodeURIComponent(q.answer.join(' '));
+    el.btnGoogle.style.display = 'inline-flex';
   } else {
     quizState = 'wrong';
     setQuestionStatus(q.id, 'incorrect');
@@ -274,6 +277,7 @@ function checkAnswer() {
     el.btnSkip.style.display = 'inline-flex';
     el.btnReplay.style.display = 'none';
     el.btnNext.style.display = 'none';
+    el.btnGoogle.style.display = 'none';
   }
 
   renderSlots();
@@ -314,6 +318,8 @@ function clearFeedback() {
   el.btnNext.style.display = 'none';
   el.btnReplay.style.display = 'none';
   el.btnSkip.style.display = 'inline-flex';
+  el.btnGoogle.style.display = 'none';
+  el.btnGoogle.href = '#';
 }
 
 function setFlagUI(flagged) {
